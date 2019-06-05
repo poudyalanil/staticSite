@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" type="image/PNG" href="..\Images\logo.PNG">
+    <link rel="stylesheet" href="..\CSS\style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- /*for icons font awesome*/ -->
+    <style>
+        .map{
+      margin-left: 600px;
+      margin-top: -400px;
+    }
+
+    </style>
+
+</head>
+
+<body>
+    <header class="logo">
+        <img id="logopng" width="110" height="177" src="..\Images\logo.PNG" alt="Logo" hidden>
+
+        <canvas id="myCanvas" width="60" height="80">
+            Your browser does not support the HTML5 canvas tag.
+        </canvas>
+        <h2 style="Color:#659999; margin-left:75px; margin-top:-40px;">History</h2>
+        <h4 style="Color:#f4791f;margin-left:160px; margin-top:-35px;">Revived</h4>
+        <script>
+            window.onload = function() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("logopng");
+  ctx.drawImage(img, 0, 0);
+}
+</script>
+
+    </header>
+    <div class="wrap">
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search" style="color:white;"></i>
+            </button>
+        </div>
+    </div>
+
+
+
+
+    <nav>
+        <ul>
+
+            <li><a href="..\index.html">Home</a></li>
+            <li><a href="social.html">Social</a></li>
+            <li><a href="political.html">Political</a></li>
+            <li><a href="educational.html">Educational</a></li>
+            <li><a href="contactus.html" class="active">Contact Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+
+        </ul>
+
+
+
+    </nav>
+
+    <br>
+
+    <h3>Contact Us</h3>
+    <p id="contactinfo">
+        If you are interested in writing for us or even just giving us some feedback, do get in touch, we are always willing to interact with our reader/potential writers. We apologize in advance if we delay our responses. You can be assured that we
+        read each and every one of our emails.
+
+        There is wide range of categories for potential writers to choose from. So do get in touch, email us at anilrunjakote@gmail.com or simply fill in the contact form below.
+    </p>
+    <div id="form">
+        <form class="contact_form">
+            <label for="">Name</label><br><input id="name" type="text" name="name" value="" placeholder="  Input Full Name" required><br>
+            <label for="">Email Address</label><br><input type="email" id="emailval" name="e_address" value="" placeholder="  Input your email address" required><br>
+            <label for="">Subject</label><br><input id="title" type="text" name="subject" value="" placeholder="  Type subject for discussion" required><br>
+            <label for="">Message</label><br><textarea id="message" name="message" value="" placeholder="  Your message goes here" required></textarea>
+            <br><input id="valsubmit" type="submit" name="" style="margin-left:240px;
+    background-color:#429bf4;
+    border:none;
+    Color:white;
+    font-family:sans-serif;
+    width:80px;
+    height:30px;
+    margin-bottom:10px;">
+
+
+        </form>
+        <!-- script for email validation -->
+        <script>
+            $(document).ready(function(e) {
+      $('#valsubmit').click(function() {
+          var Email = $('#emailval').val();
+          if ($.trim(Email).length == 0) {
+              alert('Please enter valid email address');
+              e.preventDefault();
+          }
+          if (validateEmail(Email)) {
+
+          }
+          else {
+              alert('Invalid Email Address');
+              e.preventDefault();
+          }
+      });
+  });
+
+  function validateEmail(Email) {
+      var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+      if (filter.test(Email)) {
+          return true;
+      }
+      else {
+          return false;
+      }
+  }
+  </script>
+        <!-- for local storage -->
+        <script>
+            $("#valsubmit").click(function() {
+  var name = $('#name').val();
+  var email = $('#emailval').val();
+  var subject = $('#title').val();
+  var message = $('#message').val();
+  localStorage.setItem("Name", name);
+  localStorage.setItem("Email", email);
+  localStorage.setItem("Subject", subject);
+  localStorage.setItem("Message", message);
+});
+</script>
+    </div>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.065779927376!2d85.22190331433251!3d27.68436173311012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDQxJzAzLjciTiA4NcKwMTMnMjYuNyJF!5e0!3m2!1sen!2snp!4v1549422007646"
+          width="600" height="350" frameborder="0" style="border:solid skyblue  2px;" allowfullscreen></iframe>
+    </div>
+    <footer>
+
+        <ul id="social_links">
+            <li><a href="#">
+            <li class="fa fa-facebook"> &nbsp; Facebook</li></a></li>
+            <li><a href="#">
+            <li class="fa fa-twitter"> &nbsp; Twitter</li></a></li>
+            <li><a href="#">
+            <li class="fa fa-linkedin"> &nbsp; Linkedin</li></a></li>
+            <li><a href="#">
+            <li class="fa fa-github">&nbsp; Github</li></a><br></li>
+        </ul>
+        <br>
+        <div style="margin-left:490px; margin-top:60px;">
+            &nbsp;<input type="email" name="" value="" style="height:20px;border-radius:2%;color:#659999; border:none;">&nbsp;&nbsp;<input type="submit" value="Sbscribe" id="subscribe">
+        </div>
+
+
+        <ul id="footer_nav">
+            <li><a href="../index.html">
+            <li>Home </li></a></li>
+            <li>|<a href="aboutus.html">
+            <li>About Us </li></a></li>
+            <li>|<a href="contactus.html">
+            <li>Contact Us</li></a></li>
+        </ul>
+
+        </table>
+
+        <br><br><br><br>
+
+        <p id="copyright">History Revived &copy; 2015</p>
+    </footer>
+
+
+</body>
+
+</html>

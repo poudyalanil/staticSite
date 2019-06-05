@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/PNG" href="Images\logo.PNG">
+    <link rel="stylesheet" href="CSS\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- /*for icons font awesome*/ -->
+
+</head>
+
+<body>
+    <header class="logo">
+        <img id="logopng" width="110" height="177" src="Images\logo.PNG" alt="Logo" hidden>
+
+        <a href="index.html"> <canvas id="myCanvas" width="60" height="80">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+
+            <h2 style="Color:#659999; margin-left:75px; margin-top:-40px;">History</h2>
+            <h4 style="Color:#f4791f;margin-left:160px; margin-top:-35px;">Revived</h4>
+        </a>
+        <script>
+            // for canvas
+            window.onload = function() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("logopng");
+  ctx.drawImage(img, 0, 0);
+}
+</script>
+
+    </header>
+    <!-- search  -->
+    <div class="wrap">
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search" style="color:white;"></i>
+            </button>
+        </div>
+    </div>
+
+
+
+    <nav>
+        <ul>
+            <!-- navbar links -->
+
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="Pages/social.html">Social</a></li>
+            <li><a href="Pages/political.html">Political</a></li>
+            <li><a href="Pages/educational.html">Educational</a></li>
+            <li><a href="Pages/contactus.html">Contact Us</a></li>
+            <li><a href="Pages/aboutus.html">About Us</a></li>
+
+        </ul>
+
+
+
+    </nav>
+
+
+    <br>
+    <div class="page">
+        <section class="popular">
+            <br>
+            <label class="TR">Trending This Week</label>
+            <br>
+            <!-- first popular post -->
+            <div><a href="#" id="GB">
+                    <!-- image of the person -->
+
+                    <img src="Images\G1.jpg" alt="Image" href="#">
+
+                    <!-- name of person -->
+                    <label>Gautam Buddha </label>
+                    <p> Gautam Buddha originally named as Siddhartha Gautam was born in a royal family in Nepal. As a prince he was given every kind of pleasure and was kept far away from earthy unsatisfactory nature. But one day when he was out
+                        from the home
+                        he saw a sick man and next day the old man and dead man which continuously drove him to find the real reasons behind all the sorrows and rid of them.
+                    </p>
+                </a>
+            </div>
+            <!-- second popular post -->
+            <div>
+                <a href="#" id="MA">
+                    <!-- image of the person -->
+                    <img src="Images\Manmohan.jpg" alt="Image">
+
+                    <label>Manmohan Adhikari </label>
+                    <p>
+                        She was born into a
+                        mountaineering family and was involved in climbing from her teens. She had successfully
+                        climbed Mont Blanc, Cho Oyu, Mount Yalapic, Pisang Himal, and others. She had attempted
+                        to climb Mount Everest three times before, but did not succeed until April 22, 1993, when
+                        she reached the summit by the South Col via the Southeast Ridge route.
+                    </p>
+                </a>
+            </div>
+            <!-- third poupular post -->
+            <div>
+                <a href="#" id="BBA">
+                    <!-- image of the person -->
+                    <img src="Images\Bhanubhakta.jpg" alt="Image">
+
+
+                    <label>Bhanubhakta Acharya</label>
+                    <p>Bhanu Bhakta is reflected as one of the mainstays of Nepali Literature, his impact stands live reference to his devotion and determination that he had shown towards Nepali Literature. Still today he is well-thought-out as one
+                        of the
+                        most reflective and enthused poet. Nepali literature industry scripts this excellent star as the “Aadi Kabi” in credit of his literary creations.</p>
+                </a> </div>
+        </section>
+
+        <section class="popular">
+            <br>
+            <label class="TR">Recommended</label>
+            <br>
+            <!-- first popular post -->
+            <div> <a href="#" id="PLS">
+                    <!-- image of the person -->
+                    <img src="Images\Pasang.jpg" alt="Image">
+                    <!-- name of person -->
+                    <label>Pasang Lahmu Sherpa </label>
+                    <p>She was born into a mountaineering family and was involved in climbing from her teens. She had successfully climbed Mont Blanc, Cho Oyu, Mount Yalapic, Pisang Himal, and others. She had attempted to climb Mount Everest three
+                        times
+                        before, but did not succeed until April 22, 1993, when she reached the summit by the South Col via the Southeast Ridge route.
+                    </p>
+                </a> </div>
+            <!-- second popular post -->
+            <div><a href="#" id="GPK">
+                    <!-- image of the person -->
+                    <img src="Images\Girija.jpg" alt="Image">
+
+                    <label>Girija Parsad Koirala </label>
+                    Nepal Ratna Girija Prasad Koirala affectionately known as Girija Babu, also known as G.P. Koirala, was a Nepalese politician. He headed the Nepali Congress and served as the Prime Minister of Nepal on four occasions, including
+                    from 1991 to
+                    1994, 1998 to 1999, 2000 to 2001, and from 2006 to 2008. He was the Acting Head of State of Nepal between January 2007 </p>
+                </a></div>
+            <!-- third poupular post -->
+            <div><a href="#" id="KPB">
+
+                    <!-- image of the person -->
+                    <img src="Images\Krishna.jpg" alt="Image">
+
+
+                    <label>Krishna Parsad Bhattrai</label>
+                    Krishna Prasad Bhattarai also known as Kishunji was a Nepalese political leader. He was one of the main leaders involved in transitioning Nepal from an absolute monarchy to a democratic multi-party system.
+
+                    Bhattarai became Prime Minister of Nepal in April 1990 after a popular democratic movement referred as Jana-Andolan..</p>
+
+                </a> </div>
+        </section>
+    </div>
+    <br>
+    <!--______________________________________________________________________ Articles are hidden until the featured post is clicked__________________________________________________ -->
+    <!-- 1_____________________________________________Article 1_____________________________________________ -->
+
+    <article class="post" id="Gautama">
+        <figure>
+            <img src="Images\G1.jpg" alt="">
+        </figure>
+        <h5>Gautama Buddha</h5>
+        <p>
+            Perhaps the best known Nepali person is Siddhartha Gautama, better known around the world as Buddha.
+            Siddhartha was born some time between 624 BC and 563 BC in Lumbini of Nepal.
+            Buddhism is based on the teachings of Gautama who became known as Buddha meaning “the awakened” or “Enlightened One”.
+            Tradition states that at the age of 30 he abandoned a life of opulence and focused many years of his life on self-denial and contemplation.</p>
+        <p>
+            One day, whilst sitting under a tree he gained enlightenment.
+            From then on he became Buddha. For the remainder of his life he taught his beliefs to his disciples along with the goal of reaching Nirvana, the ultimate state of enlightenment.</p>
+        <p>
+            His beliefs are embodied in his Four Noble Truths. Buddha died at Kushinagara sometime between 544 BC and 483 BC,
+            yet his teachings continue to influence the lives of individuals throughout the world.</p>
+        <p>
+
+
+
+
+            Our small and beautiful country located in the lap of great Himalayas, spreading from mountains in the north and terai in its own is a perfect example of beauty. Along with that we have many such personalities who have added in its
+            beauty by
+            various ways .Whether she is Bhrikuti or it is Sita, they have their own contribution in establishing our small country in this world. Among such great personalities “Gautam Buddha”known as the light of Asia has its own significant.</p>
+        <p>
+            Gautam Buddha originally named as Siddhartha Gautam was born in a royal family in Nepal. As a prince he was given every kind of pleasure and was kept far away from earthy unsatisfactory nature. But one day when he was out from the home
+            he saw
+            a sick man and next day the old man and dead man which continuously drove him to find the real reasons behind all the sorrows and rid of them. The next morning the prince walked past a meditator who sat in deep absorption.</p>
+        <p> When their eyes met and their minds linked, Siddhartha stopped, mesmerized. In a flash, he realized that the perfection he had been seeking outside must be within mind itself. Meeting that man gave the future Buddha a first and enticing
+            taste of mind, a true and lasting refuge, which he knew he had to experience himself for the good of all.</p>
+        <p>
+            Like this Siddhartha became Gautama Buddha, the awakened one and after his enlightment he continuously walked bare footed and started teaching his lessons for 45 years. Almost each and every people whether he was king or he was courtesan
+            they
+            were drawn to him and many people from different corners of the world became his follower. He used to teach in Pali language and later his followers started to follow him and named the religion as Buddhism.</p>
+
+
+    </article>
+    <!-- 2_____________________________________________Article 2_____________________________________________ -->
+
+    <article class="post" id="Manmohan">
+        <figure>
+            <img src="Images\Manmohan.jpg" alt="">
+        </figure>
+        <h5>Man Mohan Adhikari</h5>
+        <p>
+            Man Mohan Adhikari (9 June 1920- 26 April 1999) was the 31st Prime Minister of Nepal from 1994 to 1995, representing the Communist Party of Nepal. He was the first democratically elected Communist Party member to be the Prime Minister of
+            Nepal.
+            Born in Lazimpat, Kathmandu, Nepal, he spent his childhood in Biratnagar. His family was a landowner Brahmin family of Eastern Nepal. He was sent to Varanasi to study in 1938. While studying for his B.Sc. in 1942, Adhikari took part in
+            Quit
+            India movement and he was arrested by the British colonial authorities and jailed along with other politicians.
+            After completing studies at the University of Benares (India), in 1942 he joined the independence movement in India, which earned him a prison term of 18 months. He returned to Biratnagar and worked in chemical industry where, in March
+            1947,
+            he took part in the Biratnagar jute mill strike and was arrested and taken to Kathmandu via land route along with Girija Prasad Koirala and Bishweshwar Prasad Koirala.
+            He was an active member in the foundation of The Communist Party of Nepal. In 1953 he became Secretary-General of the clandestine Communist Party of Nepal (CPN), Maoist-inspired. </p>
+        <p>
+
+            He was a rare political figure in south Asia - a man who belonged to a vanished era of idealism, whose legacy was the Afno gaon, aafai banawo (build your own village) program, which allotted development funds directly to poor Nepalese
+            villages. As chairman of the Nepal Communist party (United Marxist Leninist), and briefly prime minister, he dedicated five decades to the struggle against Nepal's authoritarian kingdom.
+            In November 1994, elections were held following a dissolution of parliament. Despite Congress securing a higher popular vote than the UML, the latter secured 88 seats to the former's 83. Neither party was successful in forming a
+            coalition to
+            hold a majority of the 205 seats. After failed coalition negotiations, however, Adhikari became Prime Minister of a minority government, acquiring the support of the National Democratic Party and the Sadbhavana Party.
+            In June 1995, the National Democratic Party and the Sadbhavana Party (who helped the UML form a minority government in November 1994) supported the Nepali Congress's call for a vote of no-confidence in Adhikari's government in a special
+            session of the House of Representatives. Adhikari attempted to dissolve parliament and call elections in an attempt to replicate the circumstances under which he assumed office in 1994. But a Supreme Court challenge led by Congress saw
+            this
+            move deemed unconstitutional and the parliament was restored. The vote of no-confidence proceeded successfully.</p>
+        <p> Elections in 1995 saw Adhikari's government voted out of office. Adhikari was one of the few democratically elected communist party members in the world to serve as head of the government.
+            Born to a land-owning Brahmin family in eastern Nepal, Adhikari 'declassed' himself by marrying outside his caste and ethnic group and living on the outskirts of Kathmandu. Unlike many contemporaries, he made no effort to groom his son
+            and
+            daughter as successors. He lived a simple lifestyle and kept his family out of the public eye.
+            Adhikari suffered from asthma for four decades and went to China for four years to seek treatment after contracting tuberculosis. On 19 April, he suffered a heart attack during an election rally in the village of Gothatar and fell into a
+            coma.
+            He was declared brain dead on 22 April with no hope of recovery. He died four days later.
+            A pragmatist, his main achievement came in 1990 when he united his party with the young extremists of the Marxist-Leninist underground movement, who were preaching an armed peasant revolt. It transformed Nepal's communists at a time when
+            communism was collapsing in the Soviet Union and eastern Europe. His harsh experience of parliamentary politics - which saw him defeated in a confidence motion while he was in hospital - did not discourage him, or diminish the regard in
+            which
+            he was held by ordinary Nepalese. At the time of his death, he was still campaigning hard for the current elections.</p>
+
+
+    </article>
+    <!-- 2_____________________________________________Article 3_____________________________________________ -->
+    <article class="post" id="Pasang">
+        <figure>
+            <img src="Images\Pasang.jpg" alt="">
+        </figure>
+        <br>
+        <h5>Pasang Lahmu Sherpa</h5>
+        <p> She was born into a mountaineering family and was involved in climbing from her teens.
+            She had successfully climbed Mont Blanc, Cho Oyu, Mount Yalapic, Pisang Himal, and others.
+            She had attempted to climb Mount Everest three times before, but did not succeed until April 22, 1993,
+            when she reached the summit by the South Col via the Southeast Ridge route.</p>
+
+        <p>The morning of April 22, 1993 was bright and clear, and remained so until Pasang reached
+            the top of the 8,848 m. peak with five Sherpas, Sonam
+            Tshering Sherpa, Lhakpa Norbu Sherpa, Pemba Dorje Sherpa and Dawa Tashi Sherpa.
+            Meanwhile, a member of the team and five-time Everest sumitter Sherpa Sonam Tshering got seriously sick at south summit and, despite Pasang Lhamu's efforts to help, did not survive his illness. While descending from the summit, the
+            weather, as
+            often happens in the mountains, suddenly turned bad, causing her to lose her own life on the south summit.[2] Vladas Vitkauskas helped move her body down the mountain.</p>
+
+        <p>For achieving what no other Nepalese woman had achieved before her, Pasang Lhamu was posthumously
+            honored by her country and mountaineers all around the world in various ways.
+            She was the very first woman to be decorated with the "Nepal Tara (Star)"
+            by His Majesty the King. The National Youth Foundation conferred the 1993-94
+            Youth Excellence Award on her. Similarly, in order to commemorate her feat,
+            a life-size statue of Pasang Lhamu was erected at Bouddha, Chuchepati;
+            a postage stamp was issued in her name; the Government of Nepal renamed Jasamba Himal (7,315 m)
+            in the Mahalangur Range as Pasang Lhamu Peak; the Ministry of Agriculture named a special strain
+            of wheat as Pasang Lhamu wheat; the Pasang Lhamu Memorial Hall was established
+            in Dhulabari of Jhapa district in east Nepal; and the 117- Km Trishuli-Dunche road was named
+            the Pasang Lhamu Highway.In the honour of Pasang lhamu Sherpa.</p>
+
+    </article>
+    <!-- 2_____________________________________________Article 4_____________________________________________ -->
+    <article class="post" id="Girija">
+        <figure>
+            <img src="Images\Girija.jpg" alt="">
+        </figure>
+        <h5>Girija Parsad Koirala</h5>
+
+        <p> Nepal Ratna Girija Prasad Koirala (Nepali: गिरीजाप्रसाद कोइराला About this soundListen (help·info); 4 July 1924 – 20 March 2010),[1][2] affectionately known as Girija Babu[3], also known as G.P. Koirala, was a Nepalese politician. He
+            headed
+            the Nepali Congress and served as the Prime Minister of Nepal on four occasions, including from 1991 to 1994, 1998 to 1999, 2000 to 2001, and from 2006 to 2008. He was the Acting Head of State of Nepal between January 2007 and July 2008
+            as the
+            country transitioned from a monarchy to a republic. [4]
+
+            Koirala, who was active in politics for over sixty years, was a pioneer of the Nepalese labour movement, having started the first political workers' movement on Nepalese soil, known as the Biratnagar jute mill strike in his hometown,
+            Biratnagar. In 1991 he became the first democratically elected Prime Minister since 1959, when his brother B.P. Koirala and the Nepali Congress party were swept into power in the country's first democratic election.
+
+        </p>
+        <p>
+            <h5>Girija Prasad Koirala in his youth</h5>
+            Koirala was born in Saharsa, Bihar, British India, in 1924 into a Hill Brahmin family.[5] His father, Krishna Prasad Koirala, was a Nepali living in exile.[6] In 1952 Koirala married Sushma Koirala, headmistress at the local school for
+            women
+            in Biratnagar.[7] Their daughter Sujata Koirala was born in 1953. Sushma died in a kerosene stove explosion in 1967.[8]
+        </p>
+        <p>
+            <h5>Political career</h5>
+        </p>
+        <p>
+            Sketch portrait of Girija Prasad Koirala, Prime minister of Nepal
+            Koirala became involved in politics in 1947, leading the Biratnagar jute mill strike[6] In 1948 Koirala founded the Nepal Mazdoor Congress, later known as the Nepal Trade Union Congress-Independent. Later, in 1952, he became the
+            President of
+            the Morang District Nepali Congress and held that office until he was arrested and imprisoned by King Mahendra following the 1960 royal coup.[6][9] Upon his release in 1967, Koirala, along with other leaders and workers of the party, was
+            exiled to India[6] until his return to Nepal in 1979. Koirala was General Secretary of the Nepali Congress Party from 1975 to 1991.[10] Koirala was actively involved in the 1990 Jana Andolan which led to the abrogation of the Panchayat
+            rule
+            and the introduction of multiparty politics into the country. He had signed on many treaties which are against nation.
+        </p>
+        <p>
+            <h5>First term</h5>
+            In Nepal's first multiparty democratic election in 1991, Koirala was elected as a member of parliament from the Morang-1 and Sunsari-5 constituencies. The Nepali Congress won 110 of the 205 seats in the Pratinidhi Sabha (House of
+            Representatives), the lower house of parliament. He was subsequently elected as the leader of the Nepali Congress parliamentary party and was appointed as Prime Minister by King Birendra.[9]
+        </p>
+        <p>
+            During his first term, the House of Representatives enacted legislation to liberalize education, media and health sectors in the country. The government also founded the Purbanchal University and the B.P. Koirala Institute of Health
+            Sciences(BPKIHS) in the Eastern Development Region and granted licenses to the private sector to run medical and engineering colleges in various parts of the country. The government also undertook the construction of the B.P. Koirala
+            Memorial
+            Cancer Hospital in Bharatpur, Nepal with assistance from the government of China. In November 1994, he called for a dissolution of parliament and general elections after a procedural defeat on the floor of the House when 36 members of
+            parliament (MPs) of his party went against a government-sponsored vote of confidence. This led to the Communist Party of Nepal (Unified Marxist–Leninist)-led coalition coming to power in the elections that followed.[9]
+        </p>
+        <p>
+            <h5>Second term</h5>
+        </p>
+        <p>
+            Koirala took over as Prime Minister from Surya Bahadur Thapa following the collapse of the coalition government led by Thapa. Koirala first headed a Nepali Congress minority government until 25 December 1998, after which he headed a
+            three-party coalition government with the Communist Party of Nepal (UML) and the Nepal Sadbhawana Party.[citation needed]
+        </p>
+        <p>
+            <h5>Third term</h5>
+        </p>
+        <p>
+            Koirala became Prime Minister in 2000 for his third term following the resignation of Krishna Prasad Bhattarai, under whose leadership the Nepali Congress Party had won the parliamentary election. The party had won claiming that Krishna
+            Prasad
+            Bhattarai would be the Prime Minister, but Koirala led a group of dissident MPs and forced Bhattarai to resign or face a no-confidence motion. At that time Nepal was fighting a civil war against the Communist Party of Nepal (Maoist).
+            Koirala
+            resigned in July 2001[9] after which the military was mobilized in the civil war for the first time, something Koirala had unsuccessfully attempted to do while in office. He was replaced by former Prime Minister Sher Bahadur Deuba, who
+            was
+            elected by a majority of members of the Nepali Congress.
+        </p>
+        <p>
+            <h5>Fourth term</h5>
+        </p>
+        <p>
+        </p>
+        <p>
+            Koirala calls on the Indian Prime Minister Dr. Manmohan Singh in New Delhi on June 29, 2004
+            After the Loktantra Andolan and the reinstatement of the Nepal House of Representatives, Pratinidhi Sabha, on 24 April 2006, Koirala was selected to become Prime Minister by the leaders of the Seven Party Alliance. The reinstated House
+            of
+            Representatives passed laws to strip the King of his powers and bring the Army under civilian control. Following the promulgation of the interim constitution, Koirala, as the Prime Minister, became the interim head of state of Nepal.
+
+            On 1 April 2007, Koirala was re-elected as Prime Minister to head a new government composed of the SPA and the CPN (Maoist). Following the April 2008 Constituent Assembly election, the Constituent Assembly voted to declare Nepal a
+            republic on
+            28 May 2008. Koirala, speaking to the Constituent Assembly shortly before the vote, said that "we have a big responsibility now"; he said that Nepal was entering a "new era" and that "the nation's dream has come true".[11]
+        </p>
+    </article>
+    <!-- 2_____________________________________________Article 5_____________________________________________ -->
+    <article class="post" id="Krishna">
+        <figure>
+            <img src="Images\Krishna.jpg" alt="">
+        </figure>
+        <h5>Krishna Prasad Bhattarai</h5>
+        <p>
+            Krishna Prasad Bhattarai (Nepali: कृष्णप्रसाद भट्टराई; 13 December 1924 – 4 March 2011) also known as Kishunji was a Nepalese political leader. He was one of the main leaders involved in transitioning Nepal from an absolute monarchy to a
+            democratic multi-party system.
+
+            Bhattarai became Prime Minister of Nepal in April 1990 after a popular democratic movement referred as Jana-Andolan.
+
+            Bhattarai was twice the Prime Minister of Nepal, once heading the Interim Government from 19 April 1990 to 26 May 1991, and then as elected Prime Minister from 31 May 1999 to 22 March 2000.
+
+            Bhattarai was the officiating President of the Nepali Congress for nearly 26 years from February 12, 1976, and was elected to the post of president of party in 1988 till 1992. He participated in the democratic movement of Nepal from its
+            inception. The Constitution of Nepal (1990) was promulgated while he was interim Prime Minister and he was credited for successfully holding the parliamentary election in 1990, a milestone in Nepalese political history.
+        </p>
+        <p>
+            Bhattarai had participated in a long struggle to modernize the Nepalese political system, aiming to transform a society that was isolated for centuries from the outside world.
+
+            He started politics to end the 104-year-rule of the Rana Dynasty. During the political movement of 1950 to overthrow the Rana autocracy, initiated by the Bairgania Conference of the Nepali Congress on 26–27 September 1950 (Ashvin 10-11,
+            2007
+            BS), he was in charge of armed group Congress Mukti Sena fighting in Gorkha district. This armed struggle was initiated by the Nepali Congress, of which he was founding member. The armed revolution by the Nepali Congress was supported by
+            King
+            Tribhuvan, who was in exile, and by Indian and Burmese socialists. The armed revolution ultimately brought an end to the 104-year-rule of the Rana Dynasty on February 18, 1951 (Falgun 7, 2007 BS). This day is celebrated as Democracy Day
+            and is
+            a public holiday in Nepal.
+
+            After the first parliamentary election of 1959, at the age of 36, he became Speaker of lower house of parliament, though he was not an elected member. After the coup of 1960, Bhattarai was held without trial for eight years at the
+            Sundarijal
+            Military Detention Camp.[1]
+
+            Bhattarai was nominated as the officiating President of the Nepali Congress on February 12, 1976 (Falgun 1, 2025 BS) by then party supremo Jananayak BP Koirala. He held this post for more than 25 years, during which time he was a key
+            figure in
+            Nepal's democratic movement. He was elected President of the Nepali Congress by the Eighth National Conference of the Nepali Congress, held in
+        </p>
+        <p>Bhattarai was the Prime Minister of the Interim Government after the 1990 People's Movement/Jana Andolan which brought democracy to the country, bringing an end to the 30-year-old Panchayati government, and to absolute monarchy in Nepal.
+
+            Bhattarai transformed the country from an absolute monarchy to a multi-party democracy without any major problems. He was prime minister when the constitution (1990) of Nepal was promulgated and successfully held the first multi-party
+            election
+            in 30 years. He was a popular leader but lost the election by a very narrow margin.
+
+            He again served as Prime Minister from May 1999 to March 2000. He also held the portfolio of foreign ministry from 1990 to 1991 and briefly during 1999 while he was prime minister. He was a founding member and former president of the
+            Nepali
+            Congress Party.[citation needed]</p>
+
+    </article>
+    <!-- 2_____________________________________________Article 6_____________________________________________ -->
+    <article class="post" id="Bhanubhakta">
+        <figure>
+            <img src="Images\Bhanubhakta.jpg" alt="">
+        </figure>
+        <h5>Bhanu Bhakta Acharya</h5>
+        <p>
+            Bhanu Bhakta is reflected as one of the mainstays of Nepali Literature, his impact stands live reference to his devotion and determination that he had shown towards Nepali Literature. Still today he is well-thought-out as one of the most
+            reflective and enthused poet. Nepali literature industry scripts this excellent star as the “Aadi Kabi” in credit of his literary creations.</p>
+        <p>
+
+            bhanubhakta
+            Nepali Poet Bhanubhakta
+            Bhanu Bhakta Acharya is a Nepali poet. He was Born in 1814 in Chudi Ramgha, Tanahu District. His adaptation of the Hindu epic, Ramayana, earned his reputation as the greatest literary figure of the Nepali language. He was known as
+            Aadikavi
+            Bhanubhakta Acharya.</p>
+        <p>
+
+            Birth: 1871 BS</p>
+        <p>
+
+            Advertisement</p>
+        <p>
+
+            Death: 1926 BS</p>
+        <p>
+
+            Father’s Name: Dhananjaya Acharya.</p>
+        <p>
+
+            Birthplace of Bhanubhakta Acharya</p>
+        <p>
+            Chundi Ramgha, Tanahu District, Nepal</p>
+        <p>
+
+            Contributions of Bhanubhakta Acharya:</p>
+        <p>
+            His contribution was great in the field of Nepali literature. During his time literary works could be written only in Sanskrit, Urdu and Hindi languages. He wrote poems in Nepali language and proved that poems could be written in the
+            Nepali
+            language as well. He translated Ramayan from Sanskrit to common Nepali language. It helped to develop the Nepali language throughout the country. He wrote several books in the Nepali language like Bhaktamala, BadhuShiksha, etc and made
+            Nepalese literature rich and prosperous. He was the first poet to write poems in the Nepali language. So he is known as the Aadi Kabi which means the first poet.</p>
+        <p>
+
+            Although the events of his life have subsequently been embellished as befits a figure of national stature, he, in fact, wrote most of his greatest work while imprisoned in Kathmandu because of irregularities in the tax affairs of his
+            estate in
+            the Terai.</p>
+        <p>
+
+            When and why is Bhanu Jayanti celebrated?</p>
+        <p>
+            Likewise marking his influence, Asar 29 the birth centenary of Bhanu Bhakta Acharya is renowned as a form of a national festival. He is privileged as a national star for his contribution in Nepali linguistic and literature.</p>
+        <p>
+
+            Why is bhanubhakta acharya known as adikavi</p>
+        <p>
+            Innate to a Brahmin family in 1814 at Chudiramgha of Tanahu, Bhanu Bhakta expected to teach home-based from his granddad. He commanded a normal life until he met a grass cutter (ghasi) who sought to make well for people so he could
+            reminisce
+            after death.</p>
+        <p>
+
+            Inspired by ghasi’s conducts, Bhanubhakta strong-minded to live with a determination and assist Nepali literature. He rosette to a reputation for the interpreted version of mystical Ramayana in Nepali when Nepali etymological was
+            considered
+            limited only to speech.</p>
+        <p>
+
+            In previous times, the Sanskrit language conquered most of the inscribed texts and had a sturdy impact in the Nepali language. By decoding Ramayana, he made Nepali not only an existing language but also the dexterity of prose-poetry
+            lettering
+            with a grade of flawless success. He played a vital role in carrying Nepali literature from dusk to glare of persuasive.</p>
+        <p>
+
+            Bhanubhakta Acharya short biography</p>
+        <p>
+            Bhanu Bhakta Acharya was the son of Dhananjaya Acharya. South Asian dialects including Nepali was constrained for the most part to the oral medium of dialect scattering at the time with minimal composed setting and writing impact. As the
+            majority of the composed writings of South Asia were overwhelmed by Sanskrit it was, for the most part, blocked off to the general people.</p>
+        <p>
+
+            As the Brahmins were the class who exceeded expectations as educators, researchers, and clerics the entrance to every single religious sacred writing and other artistic works was just restricted to them and rare sorts of people who
+            likewise
+            could get training and comprehend Sanskrit.</p>
+        <p>
+
+            Numerous artists had composed lyrics in Sanskrit while Acharya began to write in Nepali dialect which advanced the dialect as well as picked up him acknowledgment from the Rana Rulers. Acharya’s consideration towards Ram’s gallant
+            adventures
+            got him an earnestness to make his story available to the general population who communicated in Nepali.</p>
+        <p>
+
+            Since the greater part of the general population did not comprehend Sanskrit dialect, he made an interpretation of the epic into Nepali dialect. Saving the expressive portrayal style of Ramayana his interpretations are accepted by
+            researchers
+            to convey the same melodious quintessence “Bhava and Marma” that as opposed to seeming like a sonnet sounded more like a tune without twisting the local impact or the inward significance of the Ramayana.</p>
+        <p>
+
+            A brief history of Bhanu bhakta’s life</p>
+        <p>
+            He didn’t get any western training nor was commonplace to outside writing which kept his work and experiential trip unique to the vernacular abstract framework and conveyed solid Nepali flavor to his works.
+
+            The key highlights of his compositions were straightforward yet solid with a feeling of religion, feeling of straightforwardness and the glow of his nation that very few of different artists had possessed the capacity to be contrasted
+            with.
+            Having a place with a rich family, he never had any money related inconvenience and had an unremarkable life until the point that he met a grass shaper who needed to offer remark society so he could be recalled after death as well.</p>
+        <p>
+
+            The grass cutters words were what motivated him to accomplish something that would leave a check in the general public. He composed two perfect works of art in his life among which, one is the Bhanubhaktey Ramayan and the other is a
+            letter he
+            wrote in verse frame to the Prime Minister while he was in jail. He was made a substitute and sent to jail because of some misconception in marking the papers.</p>
+        <p>
+
+            In jail, his wellbeing turned out to be awful and he was given bogus any desires for being sans set yet his case was not by any means heard. In this way, he composed an appeal to the Prime Minister asking for his flexibility, which later
+            turned into his one of his awesome works.</p>
+        <p>
+
+            He won his flexibility with his sonnet as well as given a sack of cash (He wrote in a similar dialect the then leader need to drive general society to utilize). When he kicked the bucket in 1868, he didn’t know he would multi-day be a
+            standout
+            amongst the most loved writers of Nepal.</p>
+        <p>
+
+            It’s simply him and Laxmi Prasad Devkota who is known as the abstract divine beings in the nation. The main distinction between them is that crafted by Devkota are commended as much as the writer is while Acharya’s notoriety dominates
+            his
+            works. His creation, in any case, was not distributed and he kicked the bucket without accepting credit for his commitment.</p>
+        <p>
+
+            His works were distributed by Moti Ram Bhatta in 1887 after he found the original copy and took it to Benaras, India for printing. One of the Acharya’s works is outstanding for its vivid, streaming acclaim for Kathmandu valley and its
+            tenants.</p>
+        <p>
+
+            In spite of the fact that he is a standout amongst the most celebrated and loved artists of Nepal, his works are not as popular as different writers in the historical backdrop of Nepali writing.</p>
+        <p>
+
+            Every year Bhanu Jayanti is notable as a jumbo occasion with literary sessions and programs and amidst an extraordinary attendance of Nepalese writer, author and others. But the finest way to perform integrity to the influence of
+            “Adikavi” is
+            by elevating Nepali literature around the world as it still holds up overdue as associating to the other fictions.</p>
+        <p>
+
+            Bhanu Jayanti, the anniversary of Nepali innovator poet “Adikavi” Bhanubhakta Acharya, on July 13 is renowned as a sign of nationality by Nepalese who are in and outdoor the country.
+
+            Commitments of Bhanu Bhakta Acharya.</p>
+        <p>
+            Commitments of Bhanubhakta Acharya: His commitment was extraordinary in the field of Nepali writing. Amid his chance, scholarly works could be composed just in Sanskrit, Urdu and Hindi dialects. He composed sonnets in Nepali dialect and
+            demonstrated that lyrics could be composed in Nepali dialect also.</p>
+        <p>
+
+            He made an interpretation of Ramayan from Sanskrit to regular Nepali dialect. It created Nepali dialect all through the nation. He composed a few books in Nepali dialect like Bhaktamala, BadhuShiksha, and so forth and made Nepalese
+            writing
+            rich and prosperous. He was the main artist to compose sonnets in Nepali dialect. So he is known as the Aadi Kabi which implies the primary artist.</p>
+        <p>
+
+            Despite the fact that the occasions of his life have accordingly been adorned as befits a figure of national stature, he in truth composed the vast majority of his most noteworthy work while detained in Kathmandu as a result of
+            inconsistencies
+            in the assessment undertakings of his domain in the Terai.
+        </p>
+
+
+    </article>
+
+
+
+
+    <footer>
+
+        <ul id="social_links">
+            <li><a href="#">
+            <li class="fa fa-facebook"> &nbsp; Facebook</li></a></li>
+            <li><a href="#">
+            <li class="fa fa-twitter"> &nbsp; Twitter</li></a></li>
+            <li><a href="#">
+            <li class="fa fa-linkedin"> &nbsp; Linkedin</li></a></li>
+            <li><a href="#">
+            <li class="fa fa-github">&nbsp; Github</li></a><br></li>
+        </ul>
+        <br>
+        <div style="margin-left:490px; margin-top:60px;">
+            &nbsp;<input type="email" name="" value="" style="height:20px;border-radius:2%;color:#659999; border:none;">&nbsp;&nbsp;<input type="submit" value="Sbscribe" id="subscribe">
+        </div>
+
+
+        <ul id="footer_nav">
+            <li><a href="index.html">
+            <li>Home </li></a></li>
+            <li>|<a href="Pages/aboutus.html">
+            <li>About Us </li></a></li>
+            <li>|<a href="Pages/contactus.html">
+            <li>Contact Us</li></a></li>
+        </ul>
+
+        </table>
+
+        <br><br><br><br>
+
+        <p id="copyright">History Revived &copy; 2015</p>
+    </footer>
+    <script src="javaScript/jQuery.js">
+
+
+    </script>
+
+</body>
+
+</html>

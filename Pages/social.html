@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Social</title>
+    <link rel="shortcut icon" type="image/PNG" href="..\Images\logo.PNG">
+    <link rel="stylesheet" href="..\CSS\style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- /*for icons font awesome*/ -->
+
+</head>
+
+<body>
+    <header class="logo">
+        <img id="logopng" width="110" height="177" src="..\Images\logo.PNG" alt="Logo" hidden>
+
+        <canvas id="myCanvas" width="60" height="80">
+            Browser Does Not Support
+        </canvas>
+        <h2 style="Color:#659999; margin-left:75px; margin-top:-40px;">History</h2>
+        <h4 style="Color:#f4791f;margin-left:160px; margin-top:-35px;">Revived</h4>
+        <script>
+            // for canvas
+            window.onload = function() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("logopng");
+  ctx.drawImage(img, 0, 0);
+  }
+  </script>
+
+    </header>
+    <div class="wrap">
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search" style="color:white;"></i>
+            </button>
+        </div>
+    </div>
+
+
+
+    <nav>
+        <ul>
+
+            <li><a href="..\index.html">Home</a></li>
+            <li><a href="social.html" class="active">Social</a></li>
+            <li><a href="political.html">Political</a></li>
+            <li><a href="educational.html">Educational</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+
+        </ul>
+
+
+
+    </nav>
+
+    <br>
+    <div class="page">
+        <section class="popular">
+            <br>
+            <label class="TR">Trending Activists</label>
+            <br>
+            <!-- first popular post -->
+            <div><a href="#" id="GB">
+                    <!-- image of the person -->
+                    <img src="..\Images\anuradha.jpg" alt="Image" href="#">
+                    <!-- name of person -->
+                    <label>Anuradha Koirala </label>
+                    <p>Anuradha Koirala began the journey of her life on 14th of April, 1949 as a beloved daughter of Laxmi Gurung and Colonel Pratap Singh. Born and raised in the hill station of Kalimpong, India, she pursued her education through
+                        St. Joseph
+                        Convent School where she discovered her passion for social work. Married at a very young age, her nuptial ended in a bad note. Domestic violence survivor, Anuradha had nowhere to go and at that moment, she felt the need of an
+                        organization that would help homeless women.
+                    </p>
+                </a>
+            </div>
+            <!-- second popular post -->
+            <div><a href="#" id="MA">
+                    <!-- image of the person -->
+                    <img src="..\Images\puspha.jpg" alt="Image">
+
+                    <label>Puspha Basnet </label>
+                    <p>
+                        Pushpa Basnet found her inspiration early in life. At the age of 21, while an undergraduate at St. Xavier College in Kathmandu, Pushpa visited a prison as part of her internship program. A 9-month old child, playing on the
+                        prison floor
+                        next to her mother, reached up and held onto the hem of her dress, and Pushpa experienced the overwhelming sense that “this girl called me up. This was not the place for her to be living.” From this moment, Pushpa began a
+                        courageous
+                        journey to help the innocent children living behind bars in Nepal.</p>
+                </a> </div>
+            <!-- third poupular post -->
+            <div>
+                <a href="#" id="BBA">
+                    <!-- image of the person -->
+                    <img src="..\Images\durga.jpg" alt="Image">
+
+
+                    <label>Durga Ghimire</label>
+                    <p>Mrs.Durga Ghimire is a senior social worker and a renowned human rights activist of Nepal. She has been actively involved in the field of Social work since 1975. She was very active in the political movement for the
+                        restoration of
+                        Democracy in Nepal in her student life in 1970s. She was imprisoned for three times and spends 13 months in the prison for her political activities. She has also written the book about her experience in the prison. Based on
+                        her prison
+                        experience she wrote an award winning book in 1994 “Staying Alive: Memories of Women Prison.”</p>
+                </a> </div>
+        </section>
+
+        <section class="popular">
+            <br>
+            <label class="TR">Recommended</label>
+            <br>
+            <!-- first popular post -->
+            <div> <a href="#" id="PLS">
+                    <!-- image of the person -->
+                    <img src="..\Images\Pasang.jpg" alt="Image">
+                    <!-- name of person -->
+                    <label>Pasang Lahmu Sherpa </label>
+                    <p>
+                        She was born into a mountaineering family and was involved in climbing from her teens.
+                        She had successfully climbed Mont Blanc, Cho Oyu, Mount Yalapic, Pisang Himal, and others.
+                        She had attempted to climb Mount Everest three times before, but did not succeed until April 22, 1993,
+                        when she reached the summit by the South Col via the Southeast Ridge route.
+                    </p>
+                </a> </div>
+            <!-- second popular post -->
+            <div><a href="#" id="GPK">
+                    <!-- image of the person -->
+                    <img src="..\Images\dev.jpg" alt="Image">
+
+                    <label>Dev Sumsher Rana </label>
+                    <p>
+                        Born as the fourth of the seventeen sons to Chief of the Army Dhir Sumsher Rana(younger brother of Jang Bahadur Rana) and Rani Nanda Kumari, Dev Sumsherwas a reformist. The huge family was difficult for the father
+                        and Sumsher brothers
+                        so, Dev Sumsher was adopted by his childless uncle General Krishna Bahadur Kunwar Ranaji. As the adopted child of </p>
+                </a></div>
+            <!-- third poupular post -->
+            <div><a href="#" id="KPB">
+
+                    <!-- image of the person -->
+                    <img src="..\Images\sushila.jpg" alt="Image">
+
+
+                    <label>Sushila Karki</label>
+                    <p>Sushila Karki is known for her zero tolerance against corruption. On April 30, 2017, an impeachment motion was submitted in the Parliament against Karki, by Maoist Centre and Nepali Congress.[5] However, the impeachment motion
+                        was later
+                        withdrawn after public pressure and an interim order by the Supreme Court ordering the Parliament not to proceed with the motion</p>
+                </a> </div>
+        </section>
+    </div>
+    <br>
+    <!--______________________________________________________________________-These articles are only shown when post feature is clicked_______________________________________________ -->
+    <!-- 1_____________________________________________Article 1_____________________________________________ -->
+
+    <article class="post" id="Gautama">
+        <figure>
+            <img src="..\Images\anuradha.jpg" alt="">
+        </figure> <label for="">Anuradha Koirala</label>
+        <blockquote><strong><span id="\">“Just imagine what would happen if your daughter was standing there. What would you do, how would you fight? So you have to join hands, you have to take each child like your daughter. Soon you will feel their
+                    sorrow and then you will feel the strength that comes out of you to protect them.”</span></strong></blockquote>
+        ‘Savior’ to thousands of girls who were forced to be a sex slave for years, Anuradha Koirala is a true blessing to our country. Founder and Executive Director of Maiti Nepal, she devoted her life to save women and children from human
+        traffickers. Honoured with a number of awards including, Mother Teresa Awards, Queen Sofia Silver Medal Award and Padma Shri Awards, Ms Koirala became CNN Hero in the year 2010. Up until now, she has received thirty-eight national and
+        international awards.</span></p>
+        Anuradha Koirala began the journey of her life on 14th of April, 1949 as a beloved daughter of Laxmi Gurung and Colonel Pratap Singh. Born and raised in the hill station of Kalimpong, India, she pursued her education through St. Joseph
+        Convent
+        School where she discovered her passion for social work. Married at a very young age, her nuptial ended in a bad note. Domestic violence survivor, Anuradha had nowhere to go and at that moment, she felt the need of an organization that would
+        help homeless women.</span></p>
+        Ms Koirala established ‘Maiti Nepal’ in 1993 with little saving she had. Initially, she helped eight victims of domestic violence to be independent by running their own shop. Slowly the organization grew and eventually was backed by UNICEF.
+        Started in a small house, Maiti Nepal now has multiple branches and provides an array of services. It has been conducting a number of activities such as women empowerment, social awareness, skill development and counselling for decades. It
+        also
+        provides antiretroviral therapy to those affected by HIV AIDS.</span></p>
+        The organization does not just save innocent girls from being the slaves of sex market but also rescue and support those women who have already been through that hell. Women, returned from the Indian brothels are not accepted easily by
+        society
+        in fact by their own family. In this case, Maiti Nepal provides them with both shelter and training until they become capable of living all on their own. In addition to this, Maiti Nepal has been working on patrolling Indo-Nepal border with
+        law
+        enforcement authorities and police. The organization have helped rescue and rehabilitate thousands of girls and women till date. Currently, it is operating rehabilitation home and an academy in Kathmandu, preventive homes in rural areas and
+        transit homes at the border of Nepal and India. Koirala is a true blessing to our country. Founder and Executive Director of Maiti Nepal, she devoted her life to save women and children from human traffickers. Honoured with a number of
+        awards
+        including, Mother Teresa Awards, Queen Sofia Silver Medal Award and Padma Shri Awards, Ms Koirala became CNN Hero in the year 2010. Up until now, she has received thirty-eight national and international awards.</span></p>
+        Anuradha Koirala began the journey of her life on 14th of April, 1949 as a beloved daughter of Laxmi Gurung and Colonel Pratap Singh. Born and raised in the hill station of Kalimpong, India, she pursued her education through St. Joseph
+        Convent
+        School where she discovered her passion for social work. Married at a very young age, her nuptial ended in a bad note. Domestic violence survivor, Anuradha had nowhere to go and at that moment, she felt the need of an organization that would
+        help homeless women.</span></p>
+        Ms Koirala established ‘Maiti Nepal’ in 1993 with little saving she had. Initially, she helped eight victims of domestic violence to be independent by running their own shop. Slowly the organization grew and eventually was backed by UNICEF.
+        Started in a small house, Maiti Nepal now has multiple branches and provides an array of services. It has been conducting a number of activities such as women empowerment, social awareness, skill development and counselling for decades. It
+        also
+        provides antiretroviral therapy to those affected by HIV AIDS.</span></p>
+        The organization does not just save innocent girls from being the slaves of sex market but also rescue and support those women who have already been through that hell. Women, returned from the Indian brothels are not accepted easily by
+        society
+        in fact by their own family. In this case, Maiti Nepal provides them with both shelter and training until they become capable of living all on their own. In addition to this, Maiti Nepal has been working on patrolling Indo-Nepal border with
+        law
+        enforcement authorities and police. The organization have helped rescue and rehabilitate thousands of girls and women till date. Currently, it is operating rehabilitation home and an academy in Kathmandu, preventive homes in rural areas and
+        transit homes at the border of Nepal and India. </span></p>
+    </article>
+    <!-- 2_____________________________________________Article 2_____________________________________________ -->
+
+    <article class="post" id="Manmohan">
+        <figure>
+            <img src="..\Images\puspha.jpg" alt="">
+        </figure>
+        <h5>Puspha Basnet</h5>
+        <p>Pushpa Basnet found her inspiration early in life.  At the age of 21, while an undergraduate at St. Xavier College in Kathmandu<strong>, </strong>Pushpa visited a prison as part of her internship program. A 9-month old child, playing on
+            the
+            prison floor next to her mother, reached up and held onto the hem of her dress, and Pushpa experienced the overwhelming sense that “this girl called me up. This was not the place for her to be living.”  From this moment, Pushpa began a
+            courageous journey to help the innocent children living behind bars in Nepal.</p>
+        <p>
+
+            <strong>Pushpa, her sister, and a few friends quickly raised enough money to start a day care program for some of the children.  Realizing this was not enough, Pushpa began to work with the incarcerated parent (primarily mothers), and
+                the
+                prison authorities, and gained their trust for the release of 2 children into her full time care.</strong></p>
+        <p>
+
+            From these humble beginnings, Pushpa, her ECDC team and her supporters have provided housing, food, education, clothing, and medical care, to over 140 children of incarcerated parents in Nepal.  More than this, together they have created
+            a
+            warm, loving family for the children in their care.</p>
+        <p>
+
+            Pushpa Basnet, called Mamu by the 40+ children currently living at the Butterfly Home, is determined to give these children their chance at a normal life, the opportunity to reach their potential.  “These children have done nothing
+            wrong. They
+            are simply caught in something they do not understand… they deserve a better future.”</p>
+        <p>
+
+            When a woman is incarcerated in Nepal and has no one able or willing to care for her children, she must choose between bringing her children to prison with her or sending them out to live on the streets by themselves, two unbearable
+            options.</p>
+        <p>
+
+            Many mothers have chosen to keep their children with them in prison, considered ‘the lesser of the two evils. Unfortunately, children growing up in the confines of jail cells do not have access to education, proper nutrition, warm
+            clothing,
+            and medical care.  And sadly, these children are highly vulnerable to various forms of abuses as well as the multiple negative effects on their physical, emotional, and psychological development.</p>
+        <p>
+
+            Living out their young lives behind bars, without schooling or appropriate medical care, these children suffer.</p>
+
+
+    </article>
+    <!-- 2_____________________________________________Article 3_____________________________________________ -->
+    <article class="post" id="Pasang">
+        <figure>
+            <img src="..\Images\Pasang.jpg" alt="">
+        </figure><br>
+        <h5>Pasang Lahmu Sherpa</h5>
+        <p> She was born into a mountaineering family and was involved in climbing from her teens.
+            She had successfully climbed Mont Blanc, Cho Oyu, Mount Yalapic, Pisang Himal, and others.
+            She had attempted to climb Mount Everest three times before, but did not succeed until April 22, 1993,
+            when she reached the summit by the South Col via the Southeast Ridge route.</p>
+
+        <p>The morning of April 22, 1993 was bright and clear, and remained so until Pasang reached
+            the top of the 8,848 m. peak with five Sherpas, Sonam
+            Tshering Sherpa, Lhakpa Norbu Sherpa, Pemba Dorje Sherpa and Dawa Tashi Sherpa.
+            Meanwhile, a member of the team and five-time Everest sumitter Sherpa Sonam Tshering got seriously sick at south summit and, despite Pasang Lhamu's efforts to help, did not survive his illness. While descending from the summit, the
+            weather, as
+            often happens in the mountains, suddenly turned bad, causing her to lose her own life on the south summit.[2] Vladas Vitkauskas helped move her body down the mountain.</p>
+
+        <p>For achieving what no other Nepalese woman had achieved before her, Pasang Lhamu was posthumously
+            honored by her country and mountaineers all around the world in various ways.
+            She was the very first woman to be decorated with the "Nepal Tara (Star)"
+            by His Majesty the King. The National Youth Foundation conferred the 1993-94
+            Youth Excellence Award on her. Similarly, in order to commemorate her feat,
+            a life-size statue of Pasang Lhamu was erected at Bouddha, Chuchepati;
+            a postage stamp was issued in her name; the Government of Nepal renamed Jasamba Himal (7,315 m)
+            in the Mahalangur Range as Pasang Lhamu Peak; the Ministry of Agriculture named a special strain
+            of wheat as Pasang Lhamu wheat; the Pasang Lhamu Memorial Hall was established
+            in Dhulabari of Jhapa district in east Nepal; and the 117- Km Trishuli-Dunche road was named
+            the Pasang Lhamu Highway.In the honour of Pasang lhamu Sherpa.</p>
+
+    </article>
+    <!-- 2_____________________________________________Article 4_____________________________________________ -->
+    <article class="post" id="Girija">
+        <figure>
+            <img src="..\Images\dev.jpg" alt="">
+        </figure>
+        <h5>Dev Sumsher Rana</h5>
+
+        Born as the fourth of the seventeen sons to Chief of the Army <i>Dhir</i> <i>Sumsher</i> <i>Rana</i>(younger brother of <i>Jang</i> <i>Bahadur</i> <i>Rana</i>) and <i>Rani</i> <i>Nanda</i> <i>Kumari</i>, <i>Dev</i> <i>Sumsher</i>was a
+        reformist.
+        The huge family was difficult for the father and <i>Sumsher</i> brothers so, <i>Dev</i> <i>Sumsher</i> was adopted by his childless uncle General <i>Krishna Bahadur Kunwar Ranaji</i>. As the adopted child of General <i>Ranaji</i>, <i>Dev</i> <i>Sumsher</i> had
+        a lavish upbringing similar to that of the <i>Jung</i> and other cousins. Because of which he spent more time at <i>Thapathali Durbar</i> with the sons of <i>Jang Bahadur</i> (he was close to) and met his own siblings only during the
+        occasions
+        like festivals or family gatherings. He had 12 sons and 3 daughters. He was married to <i>Badamaharani Karma Kumari, Maharani Krishna Kumari </i>(daughter of king <i>Surendra</i>, which made <i>Dev Sumsher</i> the only <i>Sumsher</i> brother
+        among the 17 to marry a princess from royal family of Nepal) and <i>Rani Ganesh Kumari.</i>
+
+         
+
+        The <i>Sumsher</i> family murdered many of their cousins, especially the sons of <i>Jang Bahadur Rana </i>and took over Nepal in a military coup d’état bringing the rule of <i>Sumsher</i> <i>Rana</i> family. They also murdered their uncle <i>Sri
+            Teen Maharaja Ranodip Singh </i>and occupied the hereditary throne of Prime Minister and then, they added <i>Jang Bahadur </i>to their name. Although this entire coup was planned and executed by the <i>Sumsher </i>brothers, <i>Dev</i> <i>Sumsher </i>knew
+        nothing about it because his brothers did not trust him as he had close relations with the <i>Jang </i>brothers. He was mistaken as a <i>Jang </i>brother and was almost killed the night of coup as he had slept at the residence of one of the <i>Jang </i>brothers.
+        He was spared by the soldier who recognized him as a <i>Sumsher</i>. The remaining <i>Rana </i>families, apart from <i>Sumsher</i> were exiled and they took over the power of the country.
+
+         
+
+        On March 5, 1901, he became the Prime Minister of Nepal at the age of 37 years after he claimed his heredity from his late brother <i>Sri Teen Maharaja, </i>Prime Minister <i>Bir Sumsher Jang Bahadur Rana </i>and received the ‘<i>Laal Mohur’</i> (red
+        stamp) of the then King of Nepal, King<i> Prithvi Bir Bikram Shah.</i> He kept his brother <i>Fathe Sumsher Jang Bahadur Rana </i>as <i>Hajuriya </i>General (Chief of the Prime Minister’s bodyguard) and his nephew General <i>Gehendra Sumsher
+            Jang Bahadur Rana</i> in his post of spy-chief and head of police. He also appointed his brother <i>Sher Sumsher</i> as the Chief of Staff to the then King and even built a palace for him. In the year 1901 AD, he also appointed <i>Sher
+            Sumsher </i>as the first director of Nepal’s first national newspaper <i>Gorkhapatra</i> which still is the government owned national daily.
+
+        He was impressed by the ‘Universal Education’ (<i>Aksharanka</i> <i>Shiksha</i>), a plan prepared by <i>Jay Prithvi Bahadur Singh, </i>King of <i>Bajhang, </i>which was later published in <i>Gorkhapatra </i>1<sup>st</sup> and 2<sup>nd</sup> edition
+        in 1901 AD. He was the kind of Prime Minister who was impressed with such works rather than empty flattery. It was during his time, that the iron ore mine was started in <i>Thosay</i> bazaar which is fifteen kilometers away in the north
+        from <i>Manthali, </i>the
+        headquarters of <i>Ramechhap</i> district. It was one of the Nepal’s largest iron ore and was used to manufacture weapons during the war with Tibet. He not only proclaimed ‘Universal Education’ but also began building schools, took steps to
+        abolish slavery and introduced several other social welfare schemes along with making improvements to the arsenal at <i>Nakkhu</i> (south of Kathmandu). At the advice of his nephew General <i>Gehendra Sumsher</i>, he decided to establish
+        parliament and built a big hall in his <i>Thapathali Durbar </i>like his uncle Prime Minister and Chief of the Army (Marshal) <i>Jang</i> <i>Bahadur</i>. He was also called ‘The Reformist’ for his works ad policies. He opened up the Durbar
+        High
+        School to the children of non-<i>Rana</i> clan as well and proposed a system of universal public primary education using Nepali as the language of instruction.
+
+        He also introduced a campaign in Kathmandu, Bhaktapur and Patan to fight corruption as well as introduced a cannon shot at midday to let people know the time. He organized ladies court, introduced newspaper to Nepal for the first time, made
+        his <i>Sindure
+            Yatra </i>royal proclamation eight times and in his short four month regime, he introduced gambling for two months along with <i>bhajan</i> from 3-5 pm and silent movies from 8-10 pm. He also wanted to send students to study in Japan,
+        however,
+        his short time as Prime Minister could not serve the purpose and the students were sent by the next Prime Minister, <i>Chandra Sumsher</i> in April 1902.
+
+        He was overthrown by his brothers just after four months of his reign as the Prime Minister and was exiled to India. He was first exiled to <i>Dhankuta </i>as the governor of East Nepal which is why he is also known as <i>Dhankute Maharaj</i> but
+        later, he fled to <i>Ilam</i> and <i>Darjeeling</i>. His successor <i>Chandra Sumsher</i> made special request to the British to look after <i>Dev</i> so that he would stay away from matters related to Nepal and as a result, the British
+        offered
+        a large plot of land in New Delhi which is now known as the Connaught Palace/Circle. However, he refused the offer saying he would rather settle in cooler hills than Delhi and built a sprawling collection of grand buildings near <i>Jharipani </i>in <i>Mussoorie</i>.
+        His residence, namely Fairlawn Palace now remains in ruins, however, a part of the estate has been developed for a school and residential purpose. The palace he lived in until his death was sold by his descendants later. All his children,
+        although they were allowed to come back and forth to Nepal, were with him in exile and it was only during the reign of <i>Juddha Sumsher,</i> that they were allowed to return back to Nepal. <i>Juddha Sumsher </i>was his younger brother whom <i>Dev</i> and
+        his wife <i>karmakumari </i>had taken care of as a father and mother and as a tribute to her <i>Juddha Sumsher</i> built a huge statue that stands at the central zoo, even today. It is the only biggest statue of any female in the country.
+        The
+        descendants of <i>Dev</i> <i>Sumsher</i> can be found either in the traditional <i>Rana</i> home in <i>Thapathali, </i>Kathmandu or in <i>Nepalgunj </i>in western Nepal and <i>Dehradun</i> in India.
+    </article>
+    <!-- 2_____________________________________________Article 5_____________________________________________ -->
+    <article class="post" id="Krishna">
+        <figure>
+            <img src="..\Images\sushila.jpg" alt="">
+        </figure>
+        <h5>Sushila Karki</h5>
+        <b>Sushila Karki</b> (born June 7, 1952 in <a class="info_link" title="" href="https://www.revolvy.com/page/Biratnagar" target="_blank" rel="noopener">Biratnagar</a>) is a Nepalese jurist. She is the former Chief Justice of the <a class="info_link"
+          title="" href="https://www.revolvy.com/page/Supreme-Court-of-Nepal" target="_blank" rel="noopener">Supreme Court of Nepal</a> and the only woman to have held the post. Karki became <a class="info_link" title="" href="https://www.revolvy.com/page/Chief-Justice-of-Nepal"
+          target="_blank" rel="noopener">Chief Justice</a> on July 11, 2016. The Constitutional Council headed by the Prime Minister <a class="info_link" title="" href="https://www.revolvy.com/page/Khadga-Prasad-Oli" target="_blank" rel="noopener">KP
+            Oli</a> recommended her for the post.
+        <div class="TopicVideoBox">
+            <div id="2018TopicVideoAd" class="TopicVideoAd"></div>
+        </div>
+        She is known for her zero tolerance against <a class="info_link" title="" href="https://www.revolvy.com/page/Corruption" target="_blank" rel="noopener">corruption</a>. On April 30, 2017, an impeachment motion was submitted in the <a class="info_link"
+          title="" href="https://www.revolvy.com/page/Federal-parliament-of-Nepal" target="_blank" rel="noopener">Parliament</a> against Karki, by Maoist Centre and <a class="info_link" title="" href="https://www.revolvy.com/page/Nepali-Congress"
+          target="_blank" rel="noopener">Nepali Congress</a>.[5] However, the impeachment motion was later withdrawn after public pressure and an interim order by the Supreme Court ordering the Parliament not to proceed with the motion.
+
+        <b>Personal life
+        </b>
+
+        Karki is the eldest child among her parents' seven children. She belongs to a farmers family.[6] She married Durga Prasad Subedi, whom she met while studying in <a class="info_link" title="" href="https://www.revolvy.com/page/Banaras" target="_blank"
+          rel="noopener">Banaras</a>. Durga Subedi was a popular youth leader of <a class="info_link" title="" href="https://www.revolvy.com/page/Nepali-Congress" target="_blank" rel="noopener">Nepali Congress</a> at that time.[4] Subedi is most
+        known
+        for his part in the hijacking of an aircraft during the Nepali Congress' protest against the <a class="info_link" title="" href="https://www.revolvy.com/page/Panchayat-(Nepal)" target="_blank" rel="noopener">Panchayat Regime</a>.
+
+        <b>Education</b>
+
+        In 1972, she completed a Bachelor of Arts (BA) degree from the Mahendra Morang Campus, Biratnagar.[4] In 1975, Karki earned her Master's degree in Political Science from <a class="info_link" title="" href="https://www.revolvy.com/page/Banaras-Hindu-University"
+          target="_blank" rel="noopener">Banaras Hindu University</a>, Varanasi, India.[7] She earned her Bachelor’s degree in Law from <a class="info_link" title="" href="https://www.revolvy.com/page/Tribhuvan-University" target="_blank" rel="noopener">Tribhuvan
+            University</a> in Nepal in 1978.[7]
+
+        <b>Career
+        </b>
+
+        In 1979 she started her law practice in Biratnagar. Karki initially worked as an assistant teacher in Mahendra Multiple Campus, Dharan in 1985. She became a senior Advocate in 2007.[2] Karki was appointed an Ad-Hoc Justice at the Supreme
+        Court
+        on January 22, 2009 [2] and a permanent Justice on November 18. 2010.[2] Karki served as acting Chief Justice of Supreme Court of Nepal from April 13, 2016 to July 10, 2016.[3]
+
+        <b>Notable Decisions
+        </b>
+        <ul>
+            <li>Om Bhakta Rana v. CIAA/Government of Nepal (Sudan Peacekeeping Mission Corruption)</li>
+            <li>Office of Nepal Trust v. Prerana Rajya Laxmi Rana (Property of former Royal Princess)</li>
+            <li>Prithivi Bahadur Pandey v. Kathmandu District Court (Corruption in the printing of polymer bank notes in Australia)</li>
+            <li>Kathmandu Nijgarh Fast Track Case</li>
+            <li>Surrogacy Case</li>
+        </ul>
+
+    </article>
+    <!-- 2_____________________________________________Article 6_____________________________________________ -->
+    <article class="post" id="Bhanubhakta">
+        <figure>
+            <img src="..\Images\durga.jpg" alt="">
+        </figure>
+        <h5>Durga Ghimire</h5>
+        <p>Mrs.Durga Ghimire is a senior social worker and a renowned human rights activist of Nepal. She has been actively involved in the field of Social work since 1975. She was very active in the political movement for the restoration of
+            Democracy
+            in Nepal in her student life in 1970s. She was imprisoned for three times and spends 13 months in the prison for her political activities. She has also written the book about her experience in the prison. Based on her prison experience
+            she
+            wrote an award winning book in 1994 “Staying Alive: Memories of Women Prison.”</p>
+        <p>
+
+
+
+            Durga worked as a Research Officer from 1972 to 1976 in Tribhuvan University. From 1977 to 1981 she was the Member Secretary of the ‘Community Services Co-ordination Committee” that co-ordinated all the social service activities in
+            Nepal.
+            Durga was also Chairperson of the ‘Women Services Coordination Committee’ in 1889. In 1982 she was awarded the prestigious ‘Gorkha Dakshin Bahu’ medal for her outstanding contribution in social work. In 1882 she established ‘Centre for
+            Women
+            Development’, aimed to conduct research on various aspects of women and development.
+        </p>
+        <p>
+            <h4>Involvement since 1980s</h4>
+            1. Founder member and at present chair the Association of craft producer (from 1984 to till now)
+        </p>
+        <p>
+            Nepali Craft Trading exports items made by the Association for Craft Producers (ACP). ACP is a non-profit group that provides design, marketing, training and technical services to low-income artisans of all ethnic backgrounds – 90% of
+            whom are
+            women. Through donor support, ACP started in 1984 with 38 artisans and five staff. Today, the organization has grown to be a fully self-sustaining enterprise with 60 staff and over 1,200 artisans from 30 producer groups across 15 urban
+            and
+            rural districts of Nepal. They have two retail outlets called Dhukuti – one in Kathmandu and the other in Pokhara. ACP is a member of the World Fair Trade Organization (WFTO), Asia Fair Trade Forum (AFTF), Fair Trade Group Nepal (FTGN),
+            and
+            the Federation of Handicraft Associations of Nepal (FHAN). ACP artisans not only receive fair wages, but they also have access to many other benefits including counselling and medical services, paid maternity and paternity leave, and
+            clothing
+            and household allowances. They have also initiated a savings program and a retirement fund, low-interest loans, education allowances for the artisans’ daughters, and seminars on health, nutrition and women’s rights. ACP also takes an
+            active
+            role in protecting the Nepal’s fragile environment by recycling materials, using water-based dyes for printing, using only softwood in production, harvesting rain water, and treating their production waste water.
+        </p>
+        <p>
+            2. Women Security Pressure Group (from 1992 to till now)</p>
+        <p>
+            She is the founder member, Vice Chairperson and the Advisor (at present) of ‘Women Security Pressure Group’ which is the Network of 50 organisations working for the rights of women. It has raised many issues related to women such as
+            discriminatory laws related to women, advocacy to have 33 percent women in the various levels of power structure. It has also handled the cases related to violence against women. She has been always in the forefront of lobby and advocacy
+            for
+            the rights of women as well as to provide justice to women.
+        </p>
+        <p>
+            3. Centre for Asia-Pacific Women in Politics (CAPWIP), Manila (from 1994 to till now)</p>
+        <p>
+            Durga is involved with the centre for Asia-Pacific women and politics since 1994 and at present she is the vice chair of this organisation. She is also the regional coordinator for its regional focal points and organised various
+            programme in
+            the region and also in Nepal. The Centre for Asia-Pacific Women in Politics (CAPWIP) is a non-partisan, non-profit and non-governmental regional organization (NGO) dedicated to promoting equal participation of women in politics and
+            decision-making. CAPWIP operates through a network of national affiliates clustered into 5 sub-regional groupings: Central Asia, East Asia, Pacific, Southeast Asia, and South Asia. The Centre’s sub-regional focal points and national
+            affiliates
+            are autonomous organizations actively involved in women’s political empowerment in their respective countries. CAPWIP has committed itself to supporting its network through technical assistance in organizational and program planning,
+            training,
+            research and information sharing. The Centre develops modules and training programs for women’s leadership and responsible citizenship based on the framework of transformative politics. The Centre conducts trainers’ training for women’s
+            political empowerment and transformative politics</p>
+        <p>
+
+            4. National Network against Trafficking</p>
+        <p>
+            Durga founded National network against trafficking in women and children in 1990. There was no any organization except ABC Nepal initiated rescue and rehabilitation on trafficking sector and also had organised the national convention
+            related
+            to trafficking. One of the recommendations of the convention is to form the network group to put pressure to the government to give more priority to the issue of trafficking. This network was working as a loose network for many years and
+            in
+            1997 it has been registered with government. NNAGT is a coalition of grassroots level Community Based Organizations (CBOs) and national level Non Governmental Organizations (NGOs) working to combat girl trafficking and violence against
+            women.
+            Its main focus is networking, alliance and information dissemination. Moreover NNAGT and the member organizations act as an advocate to protect women’s right and are involved in various activities to ‘Empower Women’. NNAGT has been
+            actively
+            involved in these issues both in the regional and international arenas. It has more than hundred organisations in its network. At present Durga is actively involved as advisor of this group.
+        </p>
+        <p>
+            5. Tama Koshi Sewa Samitte (from 1984 to till now)</p>
+        <p>
+            She is the Co-founder of Tamakoshi Service Society (TSS), a community-based organization improving the lives of marginalized people in Ramechhap, Nepal. TSS was registered in Ramechhap District Administration Office in 1984. It is the
+            first
+            NGO in the district and 68th in Nepal to be affiliated with Social Welfare Council (SWC). TSS is working only in Ramechhap, which is one of the backward among 75 districts of Nepal. On the basis of district level overall development
+            indicators, Ramechhap has been ranked in 51 position among 75 district, as the least developed district. In the midst of civil war in Nepal, where widespread intimidation, coercion and human rights abuses are prevalent, Ghimire and her
+            husband
+            Jagdish grew this voluntary grassroots organization to over 6,000 members in 40 villages, providing basic services in preventative and reproductive health care, sustainable agriculture, water supply and income generation through rural
+            micro-enterprise. With no government aid, and with the help of only a few external agencies including World Neighbors, TSS is the only agency providing these essential services in the Maoist guerilla controlled areas of Ramechhap.</p>
+        <p>
+            In 1986, TSS established a small clinic in Manthali village. In the clinic, there was one assistant who was trained for three months that time. Few medicines (especially for fever and wound dressing) were available. During that time, no
+            any
+            health institution was existed in Manthali, even of the government. There was only one health post in the district headquarters, Ramechhap village, which is 15 kms. far from Manthali and there was no access of transportation to Ramechhap
+            village. Despite a small clinic, it was very significant when there was no any health institution in Manthali. Gradually, TSS expanded the level of health services in the clinic and equipped more health workers. In 2000, the clinic
+            became a
+            10-bed hospital and now a 15-bed hospital. This 15-bed hospital was established as Tamakoshi Co-operative Hospital.</p>
+        <p>
+            Reflection of hope award to Durga for her outstanding Social work in the remote district of Ramechap
+            OKLAHOMA CITY (April 19, 2006) – Members of the Oklahoma House of Representatives today honored Durga Ghimire, co-founder of Tamakoshi Service Society (TSS), for her efforts to improve the lives of poor people in Ramechhap, Nepal.</p>
+        <p>
+            Ghimire Durga, who has been named the recipient of the 2006 “Reflections of Hope Award” by the Oklahoma City National Memorial & Museum, was honored with a special citation during today’s House session.</p>
+        <p>
+            “Thanks to Durga Ghimire, the people in Ramechhap have access to health care and a chance to rebuild their economy,” said state Rep. Susan Winchester (R-Chickasha), who authored the citation honoring Ghimire. “The Tamakoshi Service
+            Society has
+            been a beacon of hope in a sea of strife.”</p>
+        <p>
+            The House citation honoring Ghimire notes that “amid conflict, violence and oppression, the courageous work of Durga Ghimire and the Tamakoshi Service Society offers empowerment to the people of Nepal, exemplifying hope in the midst of
+            tragedy” and that Ghimire’s work also “inspires hope in the midst of political violence.”</p>
+        <p>
+            The “Reflections of Hope Award,” established in 2005 as part of the 10th anniversary commemoration of the Oklahoma City Bombing, honors a living person or group whose extraordinary work has significantly impacted a community, state or
+            nation.
+            It exemplifies that hope not only survives but thrives in the wake of political violence.</p>
+        <p>
+            As same as this award was given to USA ex- president: Bill Clinton in 2010. Furthermore, Mrs. Durga mobilized this award, amounts to USD 25,000 as a fund for health and education of children, adolescent girls and women.
+        </p>
+        <p>
+
+            <h3>Major Achievements</h3>
+        </p>
+        <p>
+            • Durga is the first women who raised the issue of human trafficking in Nepal in 1987. Though this issue was one of the critical issues but no attention was given by the government and other agencies.</p>
+        <p>
+            • In 1990, she organized the first seminar on this issue of human trafficking which was inaugurated by senior politician and Mr Krishna Prasad Bhattarai, the first Prime Minister after the restoration of democracy in 1990 with an</p>
+        <p> objective to sensitize public, press, government and other stakeholder. One of the victims of the trafficking who was rescued from Bombay was also the guest of honour of the seminar.</p>
+        <p>
+            • She formed the first National Net work against trafficking of different NGOs to put pressure to the government for the prevention of trafficking.</p>
+        <p>
+            • She rescued 124 minor girls from Bombay in 1999 in the coordination with different seven Nepali NGOs and Indian organisation and safely repatriated from Bombay.</p>
+        <p>
+            • She also rescued 44 minor girls from Apollo circus Delhi India with the help of Nepali organisation based in Delhi (Pravasi Nepali Mitra Munch).</p>
+        <p>
+            • There were many discriminating laws related to women, she along with various organisations did lobby and successful to change the law such as inheritance property rights to daughter, rape law, law related to marriage, divorce, and
+            polygamy
+            and abuse law.</p>
+        <p>
+            • She formed more than 250 self help groups (SHGs) for the Socio-economic empowerment of women. At present about 200 groups as Women Saving and Credit Groups are operating in different parts of the country which has raised their self
+            confidence and also raised their social status in the family and the societies. Furthermore, many members of the SHGs have solved various cases of violence related to adolescent girls and women in local level.</p>
+        <p>
+            • ABC/Nepal provided support to about 1700 victim of various form of violence. The major supports we have provided are rescue and rehabilitation. Legal and counselling services, Education of the victims and various gainful employments of
+            the
+            victims. The attitude of the victim has been changed and they are living normal life and their status in the family and societies has been raised.</p>
+        <p>
+            • She has been successful to lobby the government to formulate national plan and policy related to trafficking. There was no national laws and policy related to trafficking due to her continuous lobby and advocacy, government has
+            formulated
+            national laws and policy related to trafficking (commitment to prepare national plan of action relate to trafficking. at present, government has formulated national task force under the ministry of women and social welfare involving
+            various
+            sectoral ministries and NGOs. In district level, government has formed district task force under the coordination of Chief district officer involving other stakeholders. Mrs. Ghimire was also the member of central level task force group
+            related to trafficking, representing from NGOs.</p>
+        <p>
+            • She along with other organisation did lot lobby and advocacy and successful to have 33 percent women in the parliament.</p>
+        <p>
+            • She not only did lobby and advocacy on trafficking in Nepal but also visited many parts of the world (29 countries) and presented paper on the issue of trafficking and drew the attention of every one to prevent this inhuman crime.</p>
+        <p>
+            • She is the member of various high-level committees headed by Prime minister and ministers on HIV/AIDS and trafficking (for last five years).</p>
+        <p>
+            • She has been writing on the issue of women since 1974 and written many articles on women and development. She is regular writing in Kantipur and Gorkhapatra, both are the widely circulated national daily news paper of the Nepal.</p>
+
+         
+         
+    </article>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+
+        <ul id="social_links">
+            <li><a href="facebook.com">
+            <li class="fa fa-facebook"> &nbsp; Facebook</li></a></li>
+            <li><a href="twitter.com">
+            <li class="fa fa-twitter"> &nbsp; Twitter</li></a></li>
+            <li><a href="linkedin.com">
+            <li class="fa fa-linkedin"> &nbsp; Linkedin</li></a></li>
+            <li><a href="github.com">
+            <li class="fa fa-github">&nbsp; Github</li></a><br></li>
+        </ul>
+        <br>
+        <div style="margin-left:490px; margin-top:60px;">
+            &nbsp;<input type="email" name="" value="" style="height:20px;border-radius:2%;color:#659999; border:none;">&nbsp;&nbsp;<input type="submit" value="Sbscribe" id="subscribe">
+        </div>
+
+
+        <ul id="footer_nav">
+            <li><a href="../index.html">
+            <li>Home </li></a></li>
+            <li>|<a href="aboutus.html">
+            <li>About Us </li></a></li>
+            <li>|<a href="contactus.html">
+            <li>Contact Us</li></a></li>
+        </ul>
+
+        </table>
+
+        <br><br><br><br>
+
+        <p id="copyright">History Revived &copy; 2015</p>
+    </footer>
+    <script src="../javaScript/jQuery.js">
+
+
+    </script>
+
+</body>
+
+</html>

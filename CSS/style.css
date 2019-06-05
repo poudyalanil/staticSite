@@ -1,0 +1,307 @@
+body {
+  font-family: "Trebuchet MS"
+}
+
+/*Search button*/
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #f4791f;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #f4791f;
+}
+
+.searchTerm:focus {
+  color: #659999;
+}
+
+.searchButton {
+  position: absolute;
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #f4791f;
+  background: #659999;
+  text-align: center;
+  color: #659999;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50px;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+/*</search button>*/
+/* navigation bar which sticks to top while you scroll */
+nav {
+  width: 100%;
+  height: 50px;
+  background: #659999;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #659999, #f4791f);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #659999, #f4791f);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-top: 1px solid rgba(255, 255, 255, 2);
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+  position: sticky;
+  top: 0;
+  /*no spacing between top and navigation bar */
+}
+
+nav ul {
+  display: flex;
+  /*for horizontal alignment of elements in navigation*/
+  margin: 0;
+  padding: 0 100px;
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li:hover {
+  background: black;
+}
+
+nav ul li:active {
+  background: black;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+nav ul li a:hover {
+  color: #ff914d;
+}
+
+.active {
+  background-color: black;
+  color: #659999;
+}
+/* canvas for logo */
+#canvas {
+  height: 20px;
+  width: 100%;
+}
+/* recommended and popular titles */
+.TR {
+  background-color: black;
+  border-radius: 5px;
+  color: #659999;
+  font-size: 20px;
+  padding: 10px;
+  line-height: 30px;
+  width: 200px;
+  margin: 20px;
+}
+
+.TR:hover {
+  background-color: #ff914d;
+  color: black;
+}
+
+/* swinging image */
+figure {
+  animation: animate ease-in-out 1s infinite alternate;
+  transform-origin: center -20px;
+  float: left;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+figure>img {
+  border: 5px solid #f8f8f8;
+  display: block;
+  width: 280px;
+  height: 290px;
+}
+
+figure:after {
+  content: '';
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999;
+  top: -10px;
+  left: 50%;
+  z-index: 0;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(45deg);
+}
+
+/* nail */
+figure:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: -14px;
+  left: 53%;
+  z-index: 5;
+  border-radius: 50% 50%;
+  background: #000;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    transform: rotate(-3deg);
+  }
+}
+/* for popular title */
+.popular {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin: 20px;
+}
+
+.popular>div {
+  border: 1px solid #ffcc66;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.popular>div img {
+  height: 80px;
+  width: 80px;
+  border-radius: 45%;
+}
+
+.popular>div img:hover {
+  height: 80px;
+  width: 80px;
+  border-radius: 15%;
+}
+
+.popular>div p, a {
+  text-decoration: none;
+  color: inherit;
+}
+/* for post */
+.post {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.post>p {
+  text-align: justify;
+}
+/* form styling */
+
+.contact_form {
+  width: 98%;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 50px;
+}
+
+.contact_form>input, textarea {
+  border-radius: 20px;
+  border: solid skyblue 2px;
+  color: skyblue;
+  width: 250px;
+  height: 50px;
+  line-height: 15px;
+  margin: 5px;
+}
+
+.contact_form>input:hover, textarea:hover {
+  border-color: #429bf4;
+}
+
+.contact_form>label {
+  padding-left: 0px;
+}
+
+.contact_form>input:focus, textarea:focus {
+  border-radius: 20px;
+}
+
+.contact_form>textarea[name:"message"] {
+  width: 250px;
+  height: 200px;
+}
+/* footer styling */
+
+footer {
+  width: 100%;
+  color: white;
+  height: 180px;
+  background: #659999;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #659999, #f4791f);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #659999, #f4791f);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  bottom: 0;
+  font-family: sans-serif;
+}
+
+#footer_nav {
+  margin-left: 0;
+  margin-top: -90px;
+  list-style-type: none;
+}
+
+#social_links li {
+  text-decoration: none;
+  float: right;
+  list-style-type: none;
+  display: flex;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+#social_links li:hover {
+  color: #76E9A0;
+}
+
+#footer_nav li {
+  text-decoration: none;
+  float: left;
+  margin-right: 5px;
+}
+
+#subscribe {
+  border: #660000;
+  color: white;
+  background-color: #659999;
+}
+
+#footer_nav li:hover {
+  color: #76E9A0;
+}
+
+#copyright {
+  margin-left: 500px;
+}
+
+#contactinfo {
+  width: 98%;
+}

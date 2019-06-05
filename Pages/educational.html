@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Educational</title>
+    <link rel="shortcut icon" type="image/PNG" href="..\Images\logo.PNG">
+    <link rel="stylesheet" href="..\CSS\style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- /*for icons font awesome*/ -->
+
+</head>
+
+<body>
+    <header class="logo">
+        <img id="logopng" width="110" height="177" src="..\Images\logo.PNG" alt="Logo" hidden>
+
+        <canvas id="myCanvas" width="60" height="80">
+            Your browser does not support the HTML5 canvas tag.
+        </canvas>
+        <h2 style="Color:#659999; margin-left:75px; margin-top:-40px;">History</h2>
+        <h4 style="Color:#f4791f;margin-left:160px; margin-top:-35px;">Revived</h4>
+        <script>
+            window.onload = function() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("logopng");
+  ctx.drawImage(img, 0, 0);
+}
+</script>
+
+    </header>
+    <div class="wrap">
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search" style="color:white;"></i>
+            </button>
+        </div>
+    </div>
+
+
+
+    <nav>
+        <ul>
+
+            <li><a href="..\index.html">Home</a></li>
+            <li><a href="social.html">Social</a></li>
+            <li><a href="political.html">Political</a></li>
+            <li><a href="educational.html" class="active">Educational</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+
+        </ul>
+
+
+
+    </nav>
+
+    <br>
+    <div class="page">
+        <section class="popular">
+            <br>
+            <label class="TR">Trending This Week</label>
+            <br>
+            <!-- first popular post -->
+            <div><a href="#" id="GB">
+                    <!-- image of the person -->
+                    <img src="..\Images\devkota.jpg" alt="Image" href="#">
+                    <!-- name of person -->
+                    <label>Laxmi Parsad Devkota </label>
+                    <p>Laxmi Prasad Devkota was born in 1909 at Dillibazar, Kathmandu on the auspicious day of Laxmi Puja, the day when the goddess of wealth is worshipped in every household. His parents named him Laxmi Prasad. Although his name
+                        means the
+                        blessing of the goddess of wealth, he was poor all his life. Instead, he was blessed by goddess Saraswati (a deity of knowledge and learning).
+                    </p>
+                </a>
+            </div>
+            <!-- second popular post -->
+            <div><a href="#" id="MA">
+                    <!-- image of the person -->
+                    <img src="..\Images\phalgunanda.jpg" alt="Image">
+
+                    <label>Mahaguru Phalgunanda </label>
+                    <p>
+                        Phalgunanda Lingden was born in 1885 A.D. in Illam district, Nepal. He is renowned as Mahaguru (the great teacher) especially among the Kirat Limbus. He created a new Kirant religion on puritan principles such as vegetarian,
+                        a ban on
+                        alcohol and follow Limbu traditions and scripts.He is remembered for his outstanding socio-cultural and religious messages in the Limbu ethnicity, while not less exemplary are these to others as well. His one message is
+                        practice no
+                        animal sacrifice, since this sacrifice (taboo) raises social expenditures on celebrations; like birth, wedding and funeral</p>
+                </a> </div>
+            <!-- third poupular post -->
+            <div>
+                <a href="#" id="BBA">
+                    <!-- image of the person -->
+                    <img src="..\Images\Bhanubhakta.jpg" alt="Image">
+
+
+                    <label>Bhanubhakta Acharya</label>
+                    <p>Bhanu Bhakta is reflected as one of the mainstays of Nepali Literature, his impact stands live reference to his devotion and determination that he had shown towards Nepali Literature. Still today he is well-thought-out as one
+                        of the
+                        most reflective and enthused poet. Nepali literature industry scripts this excellent star as the “Aadi Kabi” in credit of his literary creations.</p>
+                </a> </div>
+        </section>
+
+        <section class="popular">
+            <br>
+            <label class="TR">Recommended</label>
+            <br>
+            <!-- first popular post -->
+            <div> <a href="#" id="PLS">
+                    <!-- image of the person -->
+                    <img src="..\Images\kc.jpg" alt="Image">
+                    <!-- name of person -->
+                    <label>Dr. Govinda KC </label>
+                    <p> While speaking about humanitarian reforms, non-violent protests, uncompromising fasts against the malfunctioning of government bodies and stakeholders in Nepal, the very first name that comes to one’s mind is none other than <strong>Govinda
+                            KC</strong>.
+
+                        Professionally, Govinda is a renowned orthopedic surgeon and a professor. Whereas in personal life, he is a philanthropist and a social activist.
+                    </p>
+                </a> </div>
+            <!-- second popular post -->
+            <div><a href="#" id="GPK">
+                    <!-- image of the person -->
+                    <img src="..\Images\sumsher.jpg" alt="Image">
+
+                    <label>Gehendra Sumsher </label>
+                    <p>
+                        The very first scientist of Nepal, GehendraSumsher was born as the first son to the past Prime Minister, BirSumsher on Poush 1928 BS. He was born in Kolkata while his father had gone there as a representative of Nepal. He
+                        studied at home
+                        with an English teacher and later joined the Durbar High School, the first school of Nepal. This creative, argumentative and serious child who loved music, physical exercise, sports and creative works grew up to become t</p>
+                </a></div>
+            <!-- third poupular post -->
+            <div><a href="#" id="KPB">
+
+                    <!-- image of the person -->
+                    <img src="..\Images\motiram.jpg" alt="Image">
+
+
+                    <label>Motiram Bhatta</label>
+                    <p>About at the age of 15, Motiram returned to Kathmandu from Varanasi and joined Durbar High School. After his schooling he went to Calcutta for higher study and there he finished his Masters’ Degree.
+
+                        Motiram Bhatta had knowledge of several languages including Sanskrit,  Hindi, Nepali, Urdu and Persian. He was a learner, he learnt music too. His life was full of learning new things.</p>
+                </a> </div>
+        </section>
+    </div>
+    <br>
+    <!-- 1_____________________________________________Article 1_____________________________________________ -->
+
+    <article class="post" id="Gautama">
+        <figure>
+            <img src="..\Images\devkota.jpg" alt="">
+        </figure>
+        <h5>Laxmi Parsad Devkota</h5>
+        <p>
+            Laxmi Prasad Devkota was born in 1909 at Dillibazar, Kathmandu on the auspicious day of Laxmi Puja, the day when the goddess of wealth is worshipped in every household. His parents named him Laxmi Prasad. Although his name means the
+            blessing
+            of the goddess of wealth, he was poor all his life. Instead, he was blessed by goddess Saraswati (a deity of knowledge and learning). He became Mahakabi (the great poet) of Nepal and earned the love and respect of the people.</p>
+        <p>
+
+            He was born in a middle class family. At the time he was born, Nepal was ruled by the Ranas who were against educating the common people. His family had to go through a lot of trouble to get him admitted at Durbar School, which was the
+            only
+            school in the whole of Kathmandu Valley. He got married at the age of fifteen, while still in school.</p>
+        <p>
+
+            He wrote his first poems at school. He was quiet and always a good student who loved reading and writing. It is said that he used to recite his poems in front of his class and his friends did not believe that he wrote them himself
+            because they
+            were very good. His teachers, however, were impressed by his talent.</p>
+        <p>
+
+            He finished school with good grades and went to Trichandra College in 1925 to study science. He got his B.A. in arts in 1929 and went to India in 1931 on a scholarship to continue his studies. He was impressed by the libraries he saw in
+            India,
+            and he and his friends wrote to the Rana Prime Minister asking for permission to open a library in Kathmandu. They were put in prison for this and had to pay heavy fines.</p>
+        <p>
+
+            When he came back from India after finishing his studies, he had to work really hard to earn a living. His popular book Muna Madan was written during this time. All the poets of the time wrote using the old Sanskrit forms. Muna Madan was
+            written in the jhyaure folklore style. This was completely new and it received recognition. It is still a best seller even after more than seven decades of its publication.</p>
+        <p>
+
+            Soon afterwards, he lost both his parents and an infant daughter within two years. This shattered Devkota completely. It was at this point that he wrote Pagal which is one of the best written poems in Nepali.</p>
+        <p>
+
+            He had the command of Nepali, Sanskrit, Hindi, and English languages and he could write poetry very quickly. He wrote his first epic Shakuntala in three months. He wrote his other epic Sulochana in ten days and Kunjini in a single day.
+            He was
+            a versatile writer and wrote many essays, plays, stories, novels, criticism and innumerable poems along with the epics. His essays are much admired for their style and content. He took Nepali literature to new heights. He has influenced
+            generations of Nepali writers and many have tried to emulate him.</p>
+        <p>
+
+            Devkota worked hard all his life. He became a professor at Trichandra College in 1946. Later, in 1957, he became Nepal’s Education Minister.</p>
+        <p>
+
+            He was also a very generous man. He gave all he had to anyone in need. One winter morning, he saw a beggar shivering in the street and gave him the coat he was wearing.</p>
+        <p>
+
+            In 1958, he was diagnosed with cancer and he passed away in 1959 aged 50.
+
+            Although he is no more with us, his writing will always keep him alive in the hearts of the people who love Nepali literature.</p>
+
+    </article>
+    <!-- 2_____________________________________________Article 2_____________________________________________ -->
+
+    <article class="post" id="Manmohan">
+        <figure>
+            <img src="..s\Images\guru.jpg" alt="">
+        </figure>
+        <h5>Mahaguru Phalgunanda</h5>
+        <p>
+            Mahaguru Phalgunanda (महागुरु फाल्गुनन्द) also known as "Mahaguru Phalgunanda" or Phalgunanda Lingden (1885–1949) was the religious leader of the Kirat people of Eastern Nepal.
+        </p>Phalgunanda Lingden was born in 1885 A.D. in Illam district, Nepal. He is renowned as Mahaguru (the great teacher) especially among the Kirat Limbus. He created a new Kirant religion on puritan principles such as vegetarian, a ban on
+        alcohol
+        and follow Limbu traditions and scripts.He is remembered for his outstanding socio-cultural and religious messages in the Limbu ethnicity, while not less exemplary are these to others as well. His one message is practice no animal sacrifice,
+        since this sacrifice (taboo) raises social expenditures on celebrations; like birth, wedding and funeral.</p>
+        </p>His further messages are similarly: eliminate social orthodoxies, run school for children, give literacy and awareness to children through their mother tongue. Education he stressed on chiefly because he believed it brings in knowledge
+        to
+        wash one's heart clean which alone is key to emancipation which again is the Ultimate Truth to realize God. In his philosophy there can be no better friend than love and nonviolence. Falgunanda who also built innumerable shrines died in
+        1949.
+        (source: Nepal Government, Postal Services Department, Nepal Philatelic Bureau, Kathmandu)</p>
+        </p>His one message is practice no animal sacrifice, since this sacrifice (taboo) raises social expenditures on celebrations; like birth, wedding and funeral. His further messages are similarly: eliminate social orthodoxies, run school for
+        children, give literacy and awareness to children through their mother tongue. Education he stressed on chiefly because he believed it brings in knowledge to wash one's heart clean which alone is key to emancipation which again is the
+        Ultimate
+        Truth to realize God.</p>
+        </p>Education he stressed on chiefly because he believed it brings in knowledge to wash one's heart clean which alone is key to emancipation which again is the Ultimate Truth to realize God. In his philosophy there can be no better friend
+        than
+        love and nonviolence. Falgunanda who also built innumerable shrines died in 1949.</p>
+        </p>(source: Nepal Government, Postal Services Department, Nepal Philatelic Bureau, Kathmandu)
+        </p>
+        </p> He created a new Kirant religion on puritan principles such as vegetarian, a ban on alcohol and follow Limbu traditions and scripts.He is remembered for his outstanding socio-cultural and religious messages in the Limbu ethnicity, while
+        not
+        less exemplary are these to others as well. His one message is practice no animal sacrifice, since this sacrifice (taboo) raises social expenditures on celebrations; like birth, wedding and funeral.</p>
+        </p>Nepal Government, Postal Services Department, Nepal Philatelic Bureau, Kathmandu has issued his Postal ticket as in Distinguished Personalities Series in 1993. He is 16th luminary of Nepal.</p>
+        </p>
+    </article>
+    <!-- 2_____________________________________________Article 3_____________________________________________ -->
+    <article class="post" id="Pasang">
+        <figure>
+            <img src="..\Images\kc.jpg" alt="">
+        </figure> <br>
+        <h5>Dr. Govinda KC</h5>
+        While speaking about humanitarian reforms, non-violent protests, uncompromising fasts against the malfunctioning of government bodies and stakeholders in Nepal, the very first name that comes to one’s mind is none other than <strong>Govinda
+            KC</strong>.
+
+        Professionally, Govinda is a renowned orthopedic surgeon and a professor. Whereas in personal life, he is a philanthropist and a social activist.
+
+        Govinda is well-known globally for his firm stand towards reforms in the Nepali medical sector and favoring the government medical institutions, notably the state-owned Institute of Medicine (IoM) and Patan Academy of Health Sciences.
+        <h4>A Series of Hunger Strikes and Key Addressed Demands</h4>
+        Voicing against transparency and political meddling in unrelated matters among others, Govinda has staged 10 hunger strikes in five years between 2012 and 2016, with eight of them being fasts-unto-death. He recently staged the eleventh one.
+
+        All his protests were against rampant commercialization of medical sector and providing quality healthcare to Nepalese.
+
+        Some of the prominent demands raised and addressed by Govinda’s hunger strikes include end of political interference, appointment of Dean in IoM, suspension of various officials of Tribhuvan University, suspension of the parliamentary
+        committee
+        directive on granting affiliation to new colleges, implementation of the Medical Education Association’s recommendations, protest against Kathmandu University officials for their violation of cabinet decisions, establishment of medical
+        colleges
+        in rural areas, education at free-of-cost/ nominal fee in medical, nursing & paramedical colleges and impeachment of CIAA Chief Lokman Singh Karki.
+
+        Govinda’s activities received a mass following from all sections of the society, especially the youth.
+
+        The most notable achievement is the recent agreement between Govinda and the Government of Nepal, which is a result of his eight fast-unto-death. Accepting Govinda’s demand, the government agreed to open at least one medical college in each
+        of
+        the (future) federal provinces. The agreement also has a 10-year moratorium on the construction of new medical colleges inside the Kathmandu Valley.
+
+        In 2015, the Government of Nepal has entered into a 11-point agreement with Govinda, which underlines:
+        <ul>
+            <li>Formation of the Health Professional Education Commission to oversee and regulate medical education</li>
+            <li>The fee ceiling for MBBS & MD/MS education to be set at Rs 3.5 million & 2.3 million, respectively, which will be revived in every three years</li>
+            <li>Formation of a new authority to probe issues in Tribhuvan University and Kathmandu University</li>
+        </ul>
+        <h4>As a Humanitarian</h4>
+        Govinda did his part as a responsible being with his humanitarian activities, by offering services to public in times of natural calamities, across Nepal and globally. During the process, he never sought financial assistance from any
+        government
+        or NGO and financed his own way. He preferred to spend his salary for the services across remote areas of Nepal.
+
+        Govinda spends two weeks of vacation, provided to him by TUTH annually, in travelling to remotest villages of Nepal to serve and conduct health awareness camps. Some of his well-known international visits include a three-week stay in Bhuj
+        region
+        of Gujarat, India post-earthquake, a 20-day stay in Northwest Pakistan to serve quake victims, and a two-week stay in Myanmar to help cyclone victims, among many others.
+        <h4>Early Life</h4>
+        Govinda KC was born on March 25, 1957 in Ramechhap, Janakpur Zone of Nepal. He studied at IoM to become a Health Assistant at the institute. With the support of the Ministry of Education’s scholarship, he went on to pursue MBBS course at
+        Rajshahi Medical College, Bangladesh, after which, he returned to Nepal and served in Bir Hospital. He then moved to Dhaka University to pursue M.S and finally became an orthopedic surgeon.
+
+        Govinda’s life took a turn at IoM after he joined the institute as a volunteer in 1994, leaving Bir Hospital. He eventually grew to become a professor specialized in child orthopedics, and the institute became a big platform for his future
+        course of action.
+        <h4>Dedicated to Social Service</h4>
+        Govinda KC (60) is still a bachelor and lives within the hospital quarters. He has dedicated his life to students, patients and social activities. There is a growing consensus in Nepal over the nomination of Govinda for the Nobel Peace Prize
+        Award.
+
+        Through his activities, Govinda transformed the lives of millions of Nepalese and became a ray of hope for those in need and proper support.
+
+        Transparency International Nepal honored Dr. Govinda KC with the National Integrity Award, at an event held in Kathmandu on the occasion of the International Anti-Corruption Day.
+    </article>
+    <!-- 2_____________________________________________Article 4_____________________________________________ -->
+    <article class="post" id="Girija">
+        <figure>
+            <img src="..\Images\sumsher.jpg" alt="">
+        </figure>
+        <h5>Gehendra Sumsher</h5>
+
+        <p> The very first scientist of Nepal, <em>Gehendra</em> <em>Sumsher</em> was born as the first son to the past Prime Minister, <em>Bir</em> <em>Sumsher</em> on <em>Poush</em> 1928 BS. He was born in Kolkata while his father had gone there
+            as a
+            representative of Nepal. He studied at home with an English teacher and later joined the Durbar High School, the first school of Nepal. This creative, argumentative and serious child who loved music, physical exercise, sports and
+            creative
+            works grew up to become the first scientist of Nepal and like any other scientists, he was more interested in creating and doing new things rather than study about others’ works.</p>
+        <p>
+
+             
+
+            He was made in-charge of arms and ammunition of Nepal Army by his father at the very young age and he was opened to opportunities when his father became the Prime Minister of Nepal in 1942 BS. He utilized the opportunity to its fullest
+            and
+            made many contributions to develop the field of arms and ammunition in Nepal.</p>
+        <p>
+
+
+
+            He established factories to manufacture essential equipments for soldiers, electricity power generators, rice mill, wind motor, etc. in <em>Jannal</em>, <em>Sundarijal</em>, <em>Balaju</em> and <em>Meghchan</em> in <em>Bhojpur</em>. He
+            used
+            the iron found in his own country and also the coal found in <em>Koilabas</em> in <em>Dang</em> to make weapons rather than importing those from other countries. In 1965 BS, he imported a motor car from Ford Company in Britain to study
+            every
+            parts of the car in detail willing to make one himself. He dismantled the car and later assembled it again and at the desire of king <em>Prithvi Bir Bikram Shah</em>, he offered the motor car to the King. He requested for the maps,
+            charts and
+            catalogue from Japan and Britain and studied each of them in detail and later successfully designed and manufactured rifles with his new improved skill and ability.
+        </p>
+        <p>
+
+            During the time when there was only a single barrel rifle in the army, he made a double barrel rifle and named it “<em>Ge</em>-Rifle” after the first letter of his name and also made a double barrel gun and named it “<em>Bir</em>-Gun”
+            after
+            his father’s name. Later, he made a new model canon “<em>Dhir</em>-Gun” and named it after his grandfather <em>Dhir Sumsher.</em>
+        </p>
+        <p>
+
+
+            He set up rice mills in his residence at <em>Seto</em> <em>Durbar</em> and also made wind motors to draw under-ground water. He also established a leather factory at <em>Balaju</em> to refine and produce leather products like shoes,
+            belts,
+            etc. Moreover, it was he who generated electricity for the first time in Nepal with the help of his friend Muse <em>Thapa</em>and also demonstrated how it could be used even in water. His inventions impressed the <em>Ranas</em> and when <em>Dev</em> <em>Sumsher</em> became
+            the Prime Minister of Nepal, this liberal PM sent a team along with <em>Gehendra</em> to study the Japanese technology in Japan and another team to Britain to study their system of administration. <em>Gehendra Sumsher</em> made new arms
+            and
+            ammunitions based on the Japanese model and on the occasion of <em>Dashain</em> festival in 1963 BS, a pistol fell from his pocket while he bow down to salute <em>Chandra</em> <em>Sumsher</em> which is believed to be the reason behind
+            his
+            mysterious death a year later in 1964 BS. It is suspected that <em>Chandra</em> <em>Sumsher</em>, fearing <em>Gehendra’s</em> popularity and success killed him.
+        </p>
+        <p>
+
+            The works of this young scientist, who died at the age of 35, are preserved in the National Museum at <em>Chhauni</em>. If he had lived longer, he would have done more development works in the field of technology and science in the
+            country and
+            Nepal might not have had to depend on other countries for technological development.
+        </p>
+    </article>
+    <!-- 2_____________________________________________Article 5_____________________________________________ -->
+    <article class="post" id="Krishna">
+        <figure>
+            <img src="..\Images\motiram.jpg" alt="">
+
+        </figure>
+        <h5>Motiram Bhatta</h5>
+        <p>
+
+
+
+            ..<span style="color: #7f6000;">Motiram Bhatta</span> is one of the initial personalities in Nepali literature. His contribution to Nepali literature is incomparable. He himself
+
+            stood as an era of Nepali Literature. It was Motiram Bhatta who published and promoted those Bhanubhatkta’s Ramayan, and spread all over Nepal, and started a new era in Nepali language and literature.Motiram Bhatta was born in Kathmandu
+            in
+            1866 AD (Bikram Sambat 1923) at Vosiko Tole as the second child of Pandit Daya Ram Bhatta and Ripumardini Devi Bhatta.  He was born on Kushe Ausi.
+
+            ..<span style="color: #7f6000;">Motiram Bhatta was born on Kuse Aushi of BS 1923 and died on the same day on Kuse Aushi in B.S 1953.
+
+                Motiram Bhatta had to move to Varanasi, India, at the age of six with his family. He had his Sanskrit education in Varanasi. His interest was in Nepali and always wanted to work for it. He was fond of languages and literature so he
+                enrolled
+                at a Persian school for learning Persian and Urdu.
+                <h1><a name="TOC--"></a><span style="color: #7f6000;">मोति राम भट्ट</span></h1>
+                <p>About at the age of 15, Motiram returned to Kathmandu from Varanasi and joined Durbar High School. After his schooling he went to Calcutta for higher study and there he finished his Masters’ Degree.
+
+                    Motiram Bhatta had knowledge of several languages including Sanskrit,  Hindi, Nepali, Urdu and Persian. He was a learner, he learnt music too. His life was full of learning new things. He was a singer too. He was interested in
+                    gazals. He
+                    wrote and sang many gazals in Nepali. Motiram was the first to write and sing gazal in Nepali. He is the the one who popularized gazal in Nepal.
+
+                    He is been artist all the time and exploring Nepali culture and arts. He loved Nepali folk song. In a wedding event of a friend, he got chance to listen to rhythmic recitation of Bhanubhakta Acharya’s Ramayana. He was enthralled
+                    by the
+                    Ramayana verses recited rhythmically. He was so attracted towards the Bhanubhaktiya Ramayan, he thought of  conducting more research on Ramayan and Bhanubhakta Acharya. This incident changed whole Nepali literature world for
+                    years to come.
+                    Motiram started his research in Bahnubhakta, this inspired him to write poems, and more gazals. Bhanubhakta and Moti Ram became supplementary to each other. Bhanubhakta inspired Motiram’s success, and Motiram presented Bhanu to
+                    Nepali
+                    Literature world. Bhanubhakta’s works made Motiram Bhatta a poet, writer, critics, biographers and publisher; whereas it was Motiram who published Bhanubhakta’s works and popularized them. Had Motiram not taken the initiative,
+                    many of the
+                    Bhanubhakta’s works may not have been preserved and popularized as they are today. The names of Bhanubhakta and Motiram, thus, come together in Nepali  literature, although their period was far different.
+                    Motiram started publishing Nepali literary magazine and published many books in Nepali language including Bhanubhakta’s Ramayana and other works in Varanasi. During this period, Motiram formed a literary group called
+                    ‘Mitramandali’  and
+                    this group helped Motiram in writing and  publishing books and other stuffs in Nepali. After coming back to Kathmandu, he established a library through which he continued his literary career.
+
+                    Motiram wrote Bhanubhakta’s biography, which was printed in B.S 1988.
+                    He with some of his colleagues formed a literary committee, which established a printing press in Nepal. It is one more important milestone in Nepal’s printing history. Motiram was chosen to become the manager of the press where
+                    he devoted
+                    more time to writing and researching on Bhanubhakta’s works. The printing press gave opportunity for other Nepali writers and poets to publish their works that made the Nepali language popular. Motiram Bhatta also used to
+                    organize
+                    scholarly discourse on various aspects of Nepali language and literature that gave yet another dimension to Nepali literature and also encouraged other aspirant writers to make contribution to Nepali language and literature.
+                    Motiram is the one who established first library in Nepal. The library became a forum for generating awareness and a center for study and discourse.
+                    In number counts his literature is not more. That does not hold any meaning to count his work, he started Nepali literature publication, and other poets follow his path. He is the one who put the foundation for Nepali literature
+                    and
+                    language. Physically he served Nepali literature for 15 years and serving till the time. He wrote and edited about 25 books. Those were the starting.
+                    Motiram was a revolutionary writer. Prior to him, poets and writers used classical style of writing. Motiram broke this tradition and started writing in a language which is understandable to all. Meter and rhythm are something
+                    like
+                    standard formula for Motiram’s poems. This made Motiram much popular all the time.
+                    The verses of some of Motiram’s books and poems mainly the Pralhadbhakti were recited in every household like morning and evening prayers. As his poems and books gained high popularity among the general public in Nepal, the then
+                    rulers of
+                    Nepal summoned Motiram to the Palace and asked him to translate the Sakuntala, a popular epic written by Kalidas in Sanskrit, into Nepali.
+                    Motiram is a legend of Nepal, who brought revolution in Nepali Literature. He was a multi-dimensional personality. He was poet, publisher, critic, researcher, promoter, patron, organizer, musician, music composer, signer, drama
+                    director
+                    and performer. His contribution to generate literary and intellectual awareness among the Nepalese people is very important and unforgettable.  Rammani Risal, a critic, says Motiram is one who promoted Nepali literature, and also
+                    used his
+                    pen to generate awareness against superstitions and social aberrations in the society. This can be clearly seen in the books “Panchakprapancha” and “Gafastak”.
+
+                    Motiram Bhatta’s works are: Manodweg Prabaha, Gajendramokchha, Panchakprapancha, Gafastak, Pralahad Bhaktikatha,, Priyadarsika, Sangit Chandrodaya,, Ushacharitra, Pikdoot, Kamal Bramar Sambad, Bibliography of Bhanubhakta,
+                    Bhanubhaktiya
+                    Ramayana.
+                    According to Ghataraj Bhattarai, there could be many books and material that were written by Motiram Bhatta but we were not able to preserve them.His work to Nepali literature is of immense value and he is always remembered as
+                    the pioneer
+                    of Nepali literature and Nepali language world.
+                    कहाँ जन्म पाएँ, कहाँ आज आएँ
+                    दुखीमा म पैला भनी चाल पाएँ
+                    हरे कर्म मेरो पनि के रहेछ
+                    विधाता ममाथि बिरानै भएछ
+                    यीजस्ता अह्राई म बस्ने उसोरी
+                    यिनैको हुकुंमा छुँ ऐले कसोरी
+                    विवेक् छैन कत्ती पनी दैवलाई
+                    न मेरै दोष् के भनूँ एसलाई
+
+                    We all remember and salute him always and especially in his birthday.</div>
+                    </td>
+
+
+    </article>
+    <!-- 2_____________________________________________Article 6_____________________________________________ -->
+    <article class="post" id="Bhanubhakta">
+        <figure>
+            <img src="..\Images\Bhanubhakta.jpg" alt="">
+        </figure>
+        <h5>Bhanu Bhakta Acharya</h5>
+        <p>
+            Bhanu Bhakta is reflected as one of the mainstays of Nepali Literature, his impact stands live reference to his devotion and determination that he had shown towards Nepali Literature. Still today he is well-thought-out as one of the most
+            reflective and enthused poet. Nepali literature industry scripts this excellent star as the “Aadi Kabi” in credit of his literary creations.</p>
+        <p>
+
+            bhanubhakta
+            Nepali Poet Bhanubhakta
+            Bhanu Bhakta Acharya is a Nepali poet. He was Born in 1814 in Chudi Ramgha, Tanahu District. His adaptation of the Hindu epic, Ramayana, earned his reputation as the greatest literary figure of the Nepali language. He was known as
+            Aadikavi
+            Bhanubhakta Acharya.</p>
+        <p>
+
+            Birth: 1871 BS</p>
+        <p>
+
+            Advertisement</p>
+        <p>
+
+            Death: 1926 BS</p>
+        <p>
+
+            Father’s Name: Dhananjaya Acharya.</p>
+        <p>
+
+            Birthplace of Bhanubhakta Acharya</p>
+        <p>
+            Chundi Ramgha, Tanahu District, Nepal</p>
+        <p>
+
+            Contributions of Bhanubhakta Acharya:</p>
+        <p>
+            His contribution was great in the field of Nepali literature. During his time literary works could be written only in Sanskrit, Urdu and Hindi languages. He wrote poems in Nepali language and proved that poems could be written in the
+            Nepali
+            language as well. He translated Ramayan from Sanskrit to common Nepali language. It helped to develop the Nepali language throughout the country. He wrote several books in the Nepali language like Bhaktamala, BadhuShiksha, etc and made
+            Nepalese literature rich and prosperous. He was the first poet to write poems in the Nepali language. So he is known as the Aadi Kabi which means the first poet.</p>
+        <p>
+
+            Although the events of his life have subsequently been embellished as befits a figure of national stature, he, in fact, wrote most of his greatest work while imprisoned in Kathmandu because of irregularities in the tax affairs of his
+            estate in
+            the Terai.</p>
+        <p>
+
+            When and why is Bhanu Jayanti celebrated?</p>
+        <p>
+            Likewise marking his influence, Asar 29 the birth centenary of Bhanu Bhakta Acharya is renowned as a form of a national festival. He is privileged as a national star for his contribution in Nepali linguistic and literature.</p>
+        <p>
+
+            Why is bhanubhakta acharya known as adikavi</p>
+        <p>
+            Innate to a Brahmin family in 1814 at Chudiramgha of Tanahu, Bhanu Bhakta expected to teach home-based from his granddad. He commanded a normal life until he met a grass cutter (ghasi) who sought to make well for people so he could
+            reminisce
+            after death.</p>
+        <p>
+
+            Inspired by ghasi’s conducts, Bhanubhakta strong-minded to live with a determination and assist Nepali literature. He rosette to a reputation for the interpreted version of mystical Ramayana in Nepali when Nepali etymological was
+            considered
+            limited only to speech.</p>
+        <p>
+
+            In previous times, the Sanskrit language conquered most of the inscribed texts and had a sturdy impact in the Nepali language. By decoding Ramayana, he made Nepali not only an existing language but also the dexterity of prose-poetry
+            lettering
+            with a grade of flawless success. He played a vital role in carrying Nepali literature from dusk to glare of persuasive.</p>
+        <p>
+
+            Bhanubhakta Acharya short biography</p>
+        <p>
+            Bhanu Bhakta Acharya was the son of Dhananjaya Acharya. South Asian dialects including Nepali was constrained for the most part to the oral medium of dialect scattering at the time with minimal composed setting and writing impact. As the
+            majority of the composed writings of South Asia were overwhelmed by Sanskrit it was, for the most part, blocked off to the general people.</p>
+        <p>
+
+            As the Brahmins were the class who exceeded expectations as educators, researchers, and clerics the entrance to every single religious sacred writing and other artistic works was just restricted to them and rare sorts of people who
+            likewise
+            could get training and comprehend Sanskrit.</p>
+        <p>
+
+            Numerous artists had composed lyrics in Sanskrit while Acharya began to write in Nepali dialect which advanced the dialect as well as picked up him acknowledgment from the Rana Rulers. Acharya’s consideration towards Ram’s gallant
+            adventures
+            got him an earnestness to make his story available to the general population who communicated in Nepali.</p>
+        <p>
+
+            Since the greater part of the general population did not comprehend Sanskrit dialect, he made an interpretation of the epic into Nepali dialect. Saving the expressive portrayal style of Ramayana his interpretations are accepted by
+            researchers
+            to convey the same melodious quintessence “Bhava and Marma” that as opposed to seeming like a sonnet sounded more like a tune without twisting the local impact or the inward significance of the Ramayana.</p>
+        <p>
+
+            A brief history of Bhanu bhakta’s life</p>
+        <p>
+            He didn’t get any western training nor was commonplace to outside writing which kept his work and experiential trip unique to the vernacular abstract framework and conveyed solid Nepali flavor to his works.
+
+            The key highlights of his compositions were straightforward yet solid with a feeling of religion, feeling of straightforwardness and the glow of his nation that very few of different artists had possessed the capacity to be contrasted
+            with.
+            Having a place with a rich family, he never had any money related inconvenience and had an unremarkable life until the point that he met a grass shaper who needed to offer remark society so he could be recalled after death as well.</p>
+        <p>
+
+            The grass cutters words were what motivated him to accomplish something that would leave a check in the general public. He composed two perfect works of art in his life among which, one is the Bhanubhaktey Ramayan and the other is a
+            letter he
+            wrote in verse frame to the Prime Minister while he was in jail. He was made a substitute and sent to jail because of some misconception in marking the papers.</p>
+        <p>
+
+            In jail, his wellbeing turned out to be awful and he was given bogus any desires for being sans set yet his case was not by any means heard. In this way, he composed an appeal to the Prime Minister asking for his flexibility, which later
+            turned into his one of his awesome works.</p>
+        <p>
+
+            He won his flexibility with his sonnet as well as given a sack of cash (He wrote in a similar dialect the then leader need to drive general society to utilize). When he kicked the bucket in 1868, he didn’t know he would multi-day be a
+            standout
+            amongst the most loved writers of Nepal.</p>
+        <p>
+
+            It’s simply him and Laxmi Prasad Devkota who is known as the abstract divine beings in the nation. The main distinction between them is that crafted by Devkota are commended as much as the writer is while Acharya’s notoriety dominates
+            his
+            works. His creation, in any case, was not distributed and he kicked the bucket without accepting credit for his commitment.</p>
+        <p>
+
+            His works were distributed by Moti Ram Bhatta in 1887 after he found the original copy and took it to Benaras, India for printing. One of the Acharya’s works is outstanding for its vivid, streaming acclaim for Kathmandu valley and its
+            tenants.</p>
+        <p>
+
+            In spite of the fact that he is a standout amongst the most celebrated and loved artists of Nepal, his works are not as popular as different writers in the historical backdrop of Nepali writing.</p>
+        <p>
+
+            Every year Bhanu Jayanti is notable as a jumbo occasion with literary sessions and programs and amidst an extraordinary attendance of Nepalese writer, author and others. But the finest way to perform integrity to the influence of
+            “Adikavi” is
+            by elevating Nepali literature around the world as it still holds up overdue as associating to the other fictions.</p>
+        <p>
+
+            Bhanu Jayanti, the anniversary of Nepali innovator poet “Adikavi” Bhanubhakta Acharya, on July 13 is renowned as a sign of nationality by Nepalese who are in and outdoor the country.
+
+            Commitments of Bhanu Bhakta Acharya.</p>
+        <p>
+            Commitments of Bhanubhakta Acharya: His commitment was extraordinary in the field of Nepali writing. Amid his chance, scholarly works could be composed just in Sanskrit, Urdu and Hindi dialects. He composed sonnets in Nepali dialect and
+            demonstrated that lyrics could be composed in Nepali dialect also.</p>
+        <p>
+
+            He made an interpretation of Ramayan from Sanskrit to regular Nepali dialect. It created Nepali dialect all through the nation. He composed a few books in Nepali dialect like Bhaktamala, BadhuShiksha, and so forth and made Nepalese
+            writing
+            rich and prosperous. He was the main artist to compose sonnets in Nepali dialect. So he is known as the Aadi Kabi which implies the primary artist.</p>
+        <p>
+
+            Despite the fact that the occasions of his life have accordingly been adorned as befits a figure of national stature, he in truth composed the vast majority of his most noteworthy work while detained in Kathmandu as a result of
+            inconsistencies
+            in the assessment undertakings of his domain in the Terai.
+        </p>
+
+    </article>
+
+
+    <footer>
+
+        <ul id="social_links">
+            <li><a href="#">
+            <li class="fa fa-facebook"> &nbsp; Facebook</li></a></li>
+            <li><a href="#">
+            <li class="fa fa-twitter"> &nbsp; Twitter</li></a></li>
+            <li><a href="#">
+            <li class="fa fa-linkedin"> &nbsp; Linkedin</li></a></li>
+            <li><a href="#">
+            <li class="fa fa-github">&nbsp; Github</li></a><br></li>
+        </ul>
+        <br>
+        <div style="margin-left:490px; margin-top:60px;">
+            &nbsp;<input type="email" name="" value="" style="height:20px;border-radius:2%;color:#659999; border:none;">&nbsp;&nbsp;<input type="submit" value="Sbscribe" id="subscribe">
+        </div>
+
+
+        <ul id="footer_nav">
+            <li><a href="../index.html">
+            <li>Home </li></a></li>
+            <li>|<a href="aboutus.html">
+            <li>About Us </li></a></li>
+            <li>|<a href="contactus.html">
+            <li>Contact Us</li></a></li>
+
+        </ul>
+
+        </table>
+
+        <br><br><br><br>
+
+        <p id="copyright">History Revived &copy; 2015</p>
+    </footer>
+    <script src="../javaScript/jQuery.js">
+
+
+    </script>
+
+</body>
+
+</html>
